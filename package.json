@@ -1,0 +1,19 @@
+{
+  "name": "PersonalWebsite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:abc123yuanrui/PersonalWebsite.git",
+  "author": "123abcyuanrui@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-player": "^1.15.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
