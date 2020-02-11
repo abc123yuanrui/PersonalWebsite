@@ -211,7 +211,7 @@ const Header = () => {
       },
       __self: undefined
     }, __jsx("a", {
-      href: "#",
+      href: "/",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 54
@@ -278,13 +278,13 @@ const Header = () => {
       },
       __self: undefined
     }, __jsx("a", {
-      href: "#",
+      href: "/family",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 61
       },
       __self: undefined
-    }, "Contact")))), __jsx("span", {
+    }, "Family")))), __jsx("span", {
       className: "navTrigger",
       __source: {
         fileName: _jsxFileName,

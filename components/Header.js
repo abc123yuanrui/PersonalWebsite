@@ -51,14 +51,14 @@ const MenuList = ({id, classes}) => {
     <nav className='nav'>
     <div className="container">
     <div className="logo">
-        <a href="#">Your Logo</a>
+        <a href="/">Your Logo</a>
     </div>
     <div id="mainListDiv" className="main_list">
         <ul className="navlinks">
             <li><a href="#">About</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/family">Family</a></li>
         </ul>
     </div>
     <span className="navTrigger">
@@ -80,11 +80,6 @@ and Dicson <a href="https://codepen.io/dicson/pen/waKPgQ">(https://codepen.io/di
 <p className="myP">
 </p>
 </div>
-{/* <style jsx>{`
-  `
-  
-}
-  </style> */}
 </div>
     );
   };
