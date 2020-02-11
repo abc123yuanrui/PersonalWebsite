@@ -6,10 +6,13 @@
   "author": "123abcyuanrui@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "next": "^9.2.1",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
-    "react-player": "^1.15.2"
+    "react-player": "^1.15.2",
+    "react-router-dom": "^5.1.2"
   },
   "scripts": {
     "dev": "next",
