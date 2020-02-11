@@ -33,6 +33,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/is-iterable */ "./no
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/assign.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/assign */ "./node_modules/core-js/library/fn/object/assign.js");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/create.js ***!
@@ -63,17 +74,6 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/define-proper
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptor */ "./node_modules/core-js/library/fn/object/get-own-property-descriptor.js");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js":
-/*!********************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/get-prototype-of */ "./node_modules/core-js/library/fn/object/get-prototype-of.js");
 
 /***/ }),
 
@@ -171,25 +171,6 @@ module.exports = _arrayWithHoles;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _assertThisInitialized(self) {
-  if (self === void 0) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-
-  return self;
-}
-
-module.exports = _assertThisInitialized;
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js":
 /*!***********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js ***!
@@ -282,55 +263,36 @@ module.exports = _createClass;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js":
-/*!***********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var _Object$getPrototypeOf = __webpack_require__(/*! ../core-js/object/get-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
+/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
+/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__);
 
-var _Object$setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
+function _extends() {
+  _extends = _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default.a || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
 
-function _getPrototypeOf(o) {
-  module.exports = _getPrototypeOf = _Object$setPrototypeOf ? _Object$getPrototypeOf : function _getPrototypeOf(o) {
-    return o.__proto__ || _Object$getPrototypeOf(o);
-  };
-  return _getPrototypeOf(o);
-}
-
-module.exports = _getPrototypeOf;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/inherits.js ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _Object$create = __webpack_require__(/*! ../core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js");
-
-var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js");
-
-function _inherits(subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function");
-  }
-
-  subClass.prototype = _Object$create(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      writable: true,
-      configurable: true
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
     }
-  });
-  if (superClass) setPrototypeOf(subClass, superClass);
-}
 
-module.exports = _inherits;
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
 
 /***/ }),
 
@@ -482,29 +444,6 @@ module.exports = _nonIterableRest;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js");
-
-var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js");
-
-function _possibleConstructorReturn(self, call) {
-  if (call && (_typeof(call) === "object" || typeof call === "function")) {
-    return call;
-  }
-
-  return assertThisInitialized(self);
-}
-
-module.exports = _possibleConstructorReturn;
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js":
 /*!***********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js ***!
@@ -632,6 +571,19 @@ module.exports = __webpack_require__(/*! ../modules/core.is-iterable */ "./node_
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/fn/object/assign.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/assign.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.object.assign */ "./node_modules/core-js/library/modules/es6.object.assign.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.assign;
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/fn/object/create.js":
 /*!**********************************************************!*\
   !*** ./node_modules/core-js/library/fn/object/create.js ***!
@@ -676,19 +628,6 @@ var $Object = __webpack_require__(/*! ../../modules/_core */ "./node_modules/cor
 module.exports = function getOwnPropertyDescriptor(it, key) {
   return $Object.getOwnPropertyDescriptor(it, key);
 };
-
-
-/***/ }),
-
-/***/ "./node_modules/core-js/library/fn/object/get-prototype-of.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/core-js/library/fn/object/get-prototype-of.js ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ../../modules/es6.object.get-prototype-of */ "./node_modules/core-js/library/modules/es6.object.get-prototype-of.js");
-module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.getPrototypeOf;
 
 
 /***/ }),
@@ -3137,6 +3076,21 @@ addToUnscopables('entries');
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/es6.object.assign.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.assign.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.3.1 Object.assign(target, source)
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+
+$export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_object-assign */ "./node_modules/core-js/library/modules/_object-assign.js") });
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/es6.object.create.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/core-js/library/modules/es6.object.create.js ***!
@@ -3179,26 +3133,6 @@ var $getOwnPropertyDescriptor = __webpack_require__(/*! ./_object-gopd */ "./nod
 __webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules/_object-sap.js")('getOwnPropertyDescriptor', function () {
   return function getOwnPropertyDescriptor(it, key) {
     return $getOwnPropertyDescriptor(toIObject(it), key);
-  };
-});
-
-
-/***/ }),
-
-/***/ "./node_modules/core-js/library/modules/es6.object.get-prototype-of.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/core-js/library/modules/es6.object.get-prototype-of.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 19.1.2.9 Object.getPrototypeOf(O)
-var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
-var $getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ "./node_modules/core-js/library/modules/_object-gpo.js");
-
-__webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules/_object-sap.js")('getPrototypeOf', function () {
-  return function getPrototypeOf(it) {
-    return $getPrototypeOf(toObject(it));
   };
 });
 
@@ -4101,6 +4035,124 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./styles.css":
+/*!********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??__nextjs_postcss!./styles.css ***!
+  \********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
+// Imports
+
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Quicksand:400,500,700);"]);
+// Module
+exports.push([module.i, "html,\nbody {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: \"Quicksand\", sans-serif;\n    font-size: 62.5%;\n    font-size: 10px;\n}\n/*-- Inspiration taken from abdo steif -->\n/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/\n\n/* Navbar section */\n\n.nav {\n    width: 100%;\n    height: 65px;\n    position: fixed;\n    line-height: 65px;\n    text-align: center;\n}\n\n.nav div.logo {\n    float: left;\n    width: auto;\n    height: auto;\n    padding-left: 3rem;\n}\n\n.nav div.logo a {\n    text-decoration: none;\n    color: #fff;\n    font-size: 2.5rem;\n}\n\n.nav div.logo a:hover {\n    color: #00E676;\n}\n\n.nav div.main_list {\n    height: 65px;\n    float: right;\n}\n\n.nav div.main_list ul {\n    width: 100%;\n    height: 65px;\n    display: flex;\n    list-style: none;\n    margin: 0;\n    padding: 0;\n}\n\n.nav div.main_list ul li {\n    width: auto;\n    height: 65px;\n    padding: 0;\n    padding-right: 3rem;\n}\n\n.nav div.main_list ul li a {\n    text-decoration: none;\n    color: #fff;\n    line-height: 65px;\n    font-size: 2.4rem;\n}\n\n.nav div.main_list ul li a:hover {\n    color: #00E676;\n}\n\n\n/* Home section */\n\n.home {\n    width: 100%;\n    height: 100vh;\n    background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);\n    background-position: center top;\n\tbackground-size:cover;\n}\n\n.navTrigger {\n    display: none;\n}\n\n.nav {\n    padding-top: 20px;\n    padding-bottom: 20px;\n    transition: all 0.4s ease;\n}\n\n\n/* Media qurey section */\n\n@media screen and (min-width: 768px) and (max-width: 1024px) {\n    .container {\n        margin: 0;\n    }\n}\n\n@media screen and (max-width:768px) {\n    .navTrigger {\n        display: block;\n    }\n    .nav div.logo {\n        margin-left: 15px;\n    }\n    .nav div.main_list {\n        width: 100%;\n        height: 0;\n        overflow: hidden;\n    }\n    .nav div.show_list {\n        height: auto;\n        display: none;\n    }\n    .nav div.main_list ul {\n        flex-direction: column;\n        width: 100%;\n        height: 100vh;\n        right: 0;\n        left: 0;\n        bottom: 0;\n        background-color: #111;\n        /*same background color of navbar*/\n        background-position: center top;\n    }\n    .nav div.main_list ul li {\n        width: 100%;\n        text-align: right;\n    }\n    .nav div.main_list ul li a {\n        text-align: center;\n        width: 100%;\n        font-size: 3rem;\n        padding: 20px;\n    }\n    .nav div.media_button {\n        display: block;\n    }\n}\n\n\n/* Animation */\n/* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */\n\n.navTrigger {\n    cursor: pointer;\n    width: 30px;\n    height: 25px;\n    margin: auto;\n    position: absolute;\n    right: 30px;\n    top: 0;\n    bottom: 0;\n}\n\n.navTrigger i {\n    background-color: #fff;\n    border-radius: 2px;\n    content: '';\n    display: block;\n    width: 100%;\n    height: 4px;\n}\n\n.navTrigger i:nth-child(1) {\n    -webkit-animation: outT 0.8s backwards;\n    animation: outT 0.8s backwards;\n    -webkit-animation-direction: reverse;\n    animation-direction: reverse;\n}\n\n.navTrigger i:nth-child(2) {\n    margin: 5px 0;\n    -webkit-animation: outM 0.8s backwards;\n    animation: outM 0.8s backwards;\n    -webkit-animation-direction: reverse;\n    animation-direction: reverse;\n}\n\n.navTrigger i:nth-child(3) {\n    -webkit-animation: outBtm 0.8s backwards;\n    animation: outBtm 0.8s backwards;\n    -webkit-animation-direction: reverse;\n    animation-direction: reverse;\n}\n\n.navTrigger.active i:nth-child(1) {\n    -webkit-animation: inT 0.8s forwards;\n    animation: inT 0.8s forwards;\n}\n\n.navTrigger.active i:nth-child(2) {\n    -webkit-animation: inM 0.8s forwards;\n    animation: inM 0.8s forwards;\n}\n\n.navTrigger.active i:nth-child(3) {\n    -webkit-animation: inBtm 0.8s forwards;\n    animation: inBtm 0.8s forwards;\n}\n\n@-webkit-keyframes inM {\n    50% {\n        -webkit-transform: rotate(0deg);\n    }\n    100% {\n        -webkit-transform: rotate(45deg);\n    }\n}\n\n@keyframes inM {\n    50% {\n        transform: rotate(0deg);\n    }\n    100% {\n        transform: rotate(45deg);\n    }\n}\n\n@-webkit-keyframes outM {\n    50% {\n        -webkit-transform: rotate(0deg);\n    }\n    100% {\n        -webkit-transform: rotate(45deg);\n    }\n}\n\n@keyframes outM {\n    50% {\n        transform: rotate(0deg);\n    }\n    100% {\n        transform: rotate(45deg);\n    }\n}\n\n@-webkit-keyframes inT {\n    0% {\n        -webkit-transform: translateY(0px) rotate(0deg);\n    }\n    50% {\n        -webkit-transform: translateY(9px) rotate(0deg);\n    }\n    100% {\n        -webkit-transform: translateY(9px) rotate(135deg);\n    }\n}\n\n@keyframes inT {\n    0% {\n        transform: translateY(0px) rotate(0deg);\n    }\n    50% {\n        transform: translateY(9px) rotate(0deg);\n    }\n    100% {\n        transform: translateY(9px) rotate(135deg);\n    }\n}\n\n@-webkit-keyframes outT {\n    0% {\n        -webkit-transform: translateY(0px) rotate(0deg);\n    }\n    50% {\n        -webkit-transform: translateY(9px) rotate(0deg);\n    }\n    100% {\n        -webkit-transform: translateY(9px) rotate(135deg);\n    }\n}\n\n@keyframes outT {\n    0% {\n        transform: translateY(0px) rotate(0deg);\n    }\n    50% {\n        transform: translateY(9px) rotate(0deg);\n    }\n    100% {\n        transform: translateY(9px) rotate(135deg);\n    }\n}\n\n@-webkit-keyframes inBtm {\n    0% {\n        -webkit-transform: translateY(0px) rotate(0deg);\n    }\n    50% {\n        -webkit-transform: translateY(-9px) rotate(0deg);\n    }\n    100% {\n        -webkit-transform: translateY(-9px) rotate(135deg);\n    }\n}\n\n@keyframes inBtm {\n    0% {\n        transform: translateY(0px) rotate(0deg);\n    }\n    50% {\n        transform: translateY(-9px) rotate(0deg);\n    }\n    100% {\n        transform: translateY(-9px) rotate(135deg);\n    }\n}\n\n@-webkit-keyframes outBtm {\n    0% {\n        -webkit-transform: translateY(0px) rotate(0deg);\n    }\n    50% {\n        -webkit-transform: translateY(-9px) rotate(0deg);\n    }\n    100% {\n        -webkit-transform: translateY(-9px) rotate(135deg);\n    }\n}\n\n@keyframes outBtm {\n    0% {\n        transform: translateY(0px) rotate(0deg);\n    }\n    50% {\n        transform: translateY(-9px) rotate(0deg);\n    }\n    100% {\n        transform: translateY(-9px) rotate(135deg);\n    }\n}\n\n.affix {\n    padding: 0;\n    background-color: #111;\n}\n\n\n\n\n\n\n.myH2 {\n\ttext-align:center;\n\tfont-size: 4rem;\n}\n.myP {\n\ttext-align: justify;\n\tpadding-left:15%;\n\tpadding-right:15%;\n\tfont-size: 20px;\n}\n@media all and (max-width:700px){\n\t.myP {\n\t\tpadding:2%;\n\t}\n}", "",{"version":3,"sources":["styles.css"],"names":[],"mappings":"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","file":"styles.css","sourcesContent":["@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');\nhtml,\nbody {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: \"Quicksand\", sans-serif;\n    font-size: 62.5%;\n    font-size: 10px;\n}\n/*-- Inspiration taken from abdo steif -->\n/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/\n\n/* Navbar section */\n\n.nav {\n    width: 100%;\n    height: 65px;\n    position: fixed;\n    line-height: 65px;\n    text-align: center;\n}\n\n.nav div.logo {\n    float: left;\n    width: auto;\n    height: auto;\n    padding-left: 3rem;\n}\n\n.nav div.logo a {\n    text-decoration: none;\n    color: #fff;\n    font-size: 2.5rem;\n}\n\n.nav div.logo a:hover {\n    color: #00E676;\n}\n\n.nav div.main_list {\n    height: 65px;\n    float: right;\n}\n\n.nav div.main_list ul {\n    width: 100%;\n    height: 65px;\n    display: flex;\n    list-style: none;\n    margin: 0;\n    padding: 0;\n}\n\n.nav div.main_list ul li {\n    width: auto;\n    height: 65px;\n    padding: 0;\n    padding-right: 3rem;\n}\n\n.nav div.main_list ul li a {\n    text-decoration: none;\n    color: #fff;\n    line-height: 65px;\n    font-size: 2.4rem;\n}\n\n.nav div.main_list ul li a:hover {\n    color: #00E676;\n}\n\n\n/* Home section */\n\n.home {\n    width: 100%;\n    height: 100vh;\n    background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);\n    background-position: center top;\n\tbackground-size:cover;\n}\n\n.navTrigger {\n    display: none;\n}\n\n.nav {\n    padding-top: 20px;\n    padding-bottom: 20px;\n    -webkit-transition: all 0.4s ease;\n    transition: all 0.4s ease;\n}\n\n\n/* Media qurey section */\n\n@media screen and (min-width: 768px) and (max-width: 1024px) {\n    .container {\n        margin: 0;\n    }\n}\n\n@media screen and (max-width:768px) {\n    .navTrigger {\n        display: block;\n    }\n    .nav div.logo {\n        margin-left: 15px;\n    }\n    .nav div.main_list {\n        width: 100%;\n        height: 0;\n        overflow: hidden;\n    }\n    .nav div.show_list {\n        height: auto;\n        display: none;\n    }\n    .nav div.main_list ul {\n        flex-direction: column;\n        width: 100%;\n        height: 100vh;\n        right: 0;\n        left: 0;\n        bottom: 0;\n        background-color: #111;\n        /*same background color of navbar*/\n        background-position: center top;\n    }\n    .nav div.main_list ul li {\n        width: 100%;\n        text-align: right;\n    }\n    .nav div.main_list ul li a {\n        text-align: center;\n        width: 100%;\n        font-size: 3rem;\n        padding: 20px;\n    }\n    .nav div.media_button {\n        display: block;\n    }\n}\n\n\n/* Animation */\n/* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */\n\n.navTrigger {\n    cursor: pointer;\n    width: 30px;\n    height: 25px;\n    margin: auto;\n    position: absolute;\n    right: 30px;\n    top: 0;\n    bottom: 0;\n}\n\n.navTrigger i {\n    background-color: #fff;\n    border-radius: 2px;\n    content: '';\n    display: block;\n    width: 100%;\n    height: 4px;\n}\n\n.navTrigger i:nth-child(1) {\n    -webkit-animation: outT 0.8s backwards;\n    animation: outT 0.8s backwards;\n    -webkit-animation-direction: reverse;\n    animation-direction: reverse;\n}\n\n.navTrigger i:nth-child(2) {\n    margin: 5px 0;\n    -webkit-animation: outM 0.8s backwards;\n    animation: outM 0.8s backwards;\n    -webkit-animation-direction: reverse;\n    animation-direction: reverse;\n}\n\n.navTrigger i:nth-child(3) {\n    -webkit-animation: outBtm 0.8s backwards;\n    animation: outBtm 0.8s backwards;\n    -webkit-animation-direction: reverse;\n    animation-direction: reverse;\n}\n\n.navTrigger.active i:nth-child(1) {\n    -webkit-animation: inT 0.8s forwards;\n    animation: inT 0.8s forwards;\n}\n\n.navTrigger.active i:nth-child(2) {\n    -webkit-animation: inM 0.8s forwards;\n    animation: inM 0.8s forwards;\n}\n\n.navTrigger.active i:nth-child(3) {\n    -webkit-animation: inBtm 0.8s forwards;\n    animation: inBtm 0.8s forwards;\n}\n\n@-webkit-keyframes inM {\n    50% {\n        -webkit-transform: rotate(0deg);\n    }\n    100% {\n        -webkit-transform: rotate(45deg);\n    }\n}\n\n@keyframes inM {\n    50% {\n        transform: rotate(0deg);\n    }\n    100% {\n        transform: rotate(45deg);\n    }\n}\n\n@-webkit-keyframes outM {\n    50% {\n        -webkit-transform: rotate(0deg);\n    }\n    100% {\n        -webkit-transform: rotate(45deg);\n    }\n}\n\n@keyframes outM {\n    50% {\n        transform: rotate(0deg);\n    }\n    100% {\n        transform: rotate(45deg);\n    }\n}\n\n@-webkit-keyframes inT {\n    0% {\n        -webkit-transform: translateY(0px) rotate(0deg);\n    }\n    50% {\n        -webkit-transform: translateY(9px) rotate(0deg);\n    }\n    100% {\n        -webkit-transform: translateY(9px) rotate(135deg);\n    }\n}\n\n@keyframes inT {\n    0% {\n        transform: translateY(0px) rotate(0deg);\n    }\n    50% {\n        transform: translateY(9px) rotate(0deg);\n    }\n    100% {\n        transform: translateY(9px) rotate(135deg);\n    }\n}\n\n@-webkit-keyframes outT {\n    0% {\n        -webkit-transform: translateY(0px) rotate(0deg);\n    }\n    50% {\n        -webkit-transform: translateY(9px) rotate(0deg);\n    }\n    100% {\n        -webkit-transform: translateY(9px) rotate(135deg);\n    }\n}\n\n@keyframes outT {\n    0% {\n        transform: translateY(0px) rotate(0deg);\n    }\n    50% {\n        transform: translateY(9px) rotate(0deg);\n    }\n    100% {\n        transform: translateY(9px) rotate(135deg);\n    }\n}\n\n@-webkit-keyframes inBtm {\n    0% {\n        -webkit-transform: translateY(0px) rotate(0deg);\n    }\n    50% {\n        -webkit-transform: translateY(-9px) rotate(0deg);\n    }\n    100% {\n        -webkit-transform: translateY(-9px) rotate(135deg);\n    }\n}\n\n@keyframes inBtm {\n    0% {\n        transform: translateY(0px) rotate(0deg);\n    }\n    50% {\n        transform: translateY(-9px) rotate(0deg);\n    }\n    100% {\n        transform: translateY(-9px) rotate(135deg);\n    }\n}\n\n@-webkit-keyframes outBtm {\n    0% {\n        -webkit-transform: translateY(0px) rotate(0deg);\n    }\n    50% {\n        -webkit-transform: translateY(-9px) rotate(0deg);\n    }\n    100% {\n        -webkit-transform: translateY(-9px) rotate(135deg);\n    }\n}\n\n@keyframes outBtm {\n    0% {\n        transform: translateY(0px) rotate(0deg);\n    }\n    50% {\n        transform: translateY(-9px) rotate(0deg);\n    }\n    100% {\n        transform: translateY(-9px) rotate(135deg);\n    }\n}\n\n.affix {\n    padding: 0;\n    background-color: #111;\n}\n\n\n\n\n\n\n.myH2 {\n\ttext-align:center;\n\tfont-size: 4rem;\n}\n.myP {\n\ttext-align: justify;\n\tpadding-left:15%;\n\tpadding-right:15%;\n\tfont-size: 20px;\n}\n@media all and (max-width:700px){\n\t.myP {\n\t\tpadding:2%;\n\t}\n}"]}]);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+// eslint-disable-next-line func-names
+module.exports = function (useSourceMap) {
+  var list = []; // return the list of modules as css string
+
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = cssWithMappingToString(item, useSourceMap);
+
+      if (item[2]) {
+        return "@media ".concat(item[2], "{").concat(content, "}");
+      }
+
+      return content;
+    }).join('');
+  }; // import a list of modules into the list
+  // eslint-disable-next-line func-names
+
+
+  list.i = function (modules, mediaQuery) {
+    if (typeof modules === 'string') {
+      // eslint-disable-next-line no-param-reassign
+      modules = [[null, modules, '']];
+    }
+
+    var alreadyImportedModules = {};
+
+    for (var i = 0; i < this.length; i++) {
+      // eslint-disable-next-line prefer-destructuring
+      var id = this[i][0];
+
+      if (id != null) {
+        alreadyImportedModules[id] = true;
+      }
+    }
+
+    for (var _i = 0; _i < modules.length; _i++) {
+      var item = modules[_i]; // skip already imported module
+      // this implementation is not 100% perfect for weird media query combinations
+      // when a module is imported multiple times with different media queries.
+      // I hope this will never occur (Hey this way we have smaller bundles)
+
+      if (item[0] == null || !alreadyImportedModules[item[0]]) {
+        if (mediaQuery && !item[2]) {
+          item[2] = mediaQuery;
+        } else if (mediaQuery) {
+          item[2] = "(".concat(item[2], ") and (").concat(mediaQuery, ")");
+        }
+
+        list.push(item);
+      }
+    }
+  };
+
+  return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring
+
+  var cssMapping = item[3];
+
+  if (!cssMapping) {
+    return content;
+  }
+
+  if (useSourceMap && typeof btoa === 'function') {
+    var sourceMapping = toComment(cssMapping);
+    var sourceURLs = cssMapping.sources.map(function (source) {
+      return "/*# sourceURL=".concat(cssMapping.sourceRoot).concat(source, " */");
+    });
+    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+  }
+
+  return [content].join('\n');
+} // Adapted from convert-source-map (MIT)
+
+
+function toComment(sourceMap) {
+  // eslint-disable-next-line no-undef
+  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+  var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+  return "/*# ".concat(data, " */");
+}
+
+/***/ }),
+
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 /*!***********************************************************************************************************************!*\
   !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_ef0ff7c60362f24a921f ***!
@@ -4112,20 +4164,20 @@ module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app!./":
-/*!*******************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app ***!
-  \*******************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./":
+/*!*********************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js ***!
+  \*********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
     (window.__NEXT_P=window.__NEXT_P||[]).push(["/_app", function() {
-      var mod = __webpack_require__(/*! next/dist/pages/_app */ "./node_modules/next/dist/pages/_app.js")
+      var mod = __webpack_require__(/*! private-next-pages/_app.js */ "./pages/_app.js")
       if(true) {
-        module.hot.accept(/*! next/dist/pages/_app */ "./node_modules/next/dist/pages/_app.js", function() {
+        module.hot.accept(/*! private-next-pages/_app.js */ "./pages/_app.js", function() {
           if(!next.router.components["/_app"]) return
-          var updatedPage = __webpack_require__(/*! next/dist/pages/_app */ "./node_modules/next/dist/pages/_app.js")
+          var updatedPage = __webpack_require__(/*! private-next-pages/_app.js */ "./pages/_app.js")
           next.router.update("/_app", updatedPage)
         })
       }
@@ -5510,178 +5562,6 @@ function formatWithValidation(url, options) {
 exports.formatWithValidation = formatWithValidation;
 exports.SP = typeof performance !== 'undefined';
 exports.ST = exports.SP && typeof performance.mark === 'function' && typeof performance.measure === 'function';
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/pages/_app.js":
-/*!**********************************************!*\
-  !*** ./node_modules/next/dist/pages/_app.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _Object$assign = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/next/dist/build/polyfills/object-assign.js");
-
-var _classCallCheck = __webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js");
-
-var _createClass = __webpack_require__(/*! @babel/runtime-corejs2/helpers/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js");
-
-var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime-corejs2/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js");
-
-var _getPrototypeOf = __webpack_require__(/*! @babel/runtime-corejs2/helpers/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js");
-
-var _inherits = __webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js");
-
-var _regeneratorRuntime = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.Container = Container;
-exports.createUrl = createUrl;
-exports["default"] = void 0;
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _utils = __webpack_require__(/*! ../next-server/lib/utils */ "./node_modules/next/dist/next-server/lib/utils.js");
-
-exports.AppInitialProps = _utils.AppInitialProps;
-/**
-* `App` component is used for initialize of pages. It allows for overwriting and full control of the `page` initialization.
-* This allows for keeping state between navigation, custom error handling, injecting additional data.
-*/
-
-function appGetInitialProps(_ref) {
-  var Component, ctx, pageProps;
-  return _regeneratorRuntime.async(function appGetInitialProps$(_context) {
-    while (1) {
-      switch (_context.prev = _context.next) {
-        case 0:
-          Component = _ref.Component, ctx = _ref.ctx;
-          _context.next = 3;
-          return _regeneratorRuntime.awrap((0, _utils.loadGetInitialProps)(Component, ctx));
-
-        case 3:
-          pageProps = _context.sent;
-          return _context.abrupt("return", {
-            pageProps: pageProps
-          });
-
-        case 5:
-        case "end":
-          return _context.stop();
-      }
-    }
-  });
-}
-
-var App =
-/*#__PURE__*/
-function (_react$default$Compon) {
-  _inherits(App, _react$default$Compon);
-
-  function App() {
-    _classCallCheck(this, App);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(App).apply(this, arguments));
-  }
-
-  _createClass(App, [{
-    key: "componentDidCatch",
-    // Kept here for backwards compatibility.
-    // When someone ended App they could call `super.componentDidCatch`.
-    // @deprecated This method is no longer needed. Errors are caught at the top level
-    value: function componentDidCatch(error, _errorInfo) {
-      throw error;
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this$props = this.props,
-          router = _this$props.router,
-          Component = _this$props.Component,
-          pageProps = _this$props.pageProps;
-      var url = createUrl(router);
-      return _react["default"].createElement(Component, _Object$assign({}, pageProps, {
-        url: url
-      }));
-    }
-  }]);
-
-  return App;
-}(_react["default"].Component);
-
-exports["default"] = App;
-App.origGetInitialProps = appGetInitialProps;
-App.getInitialProps = appGetInitialProps;
-var warnContainer;
-var warnUrl;
-
-if (true) {
-  warnContainer = (0, _utils.execOnce)(function () {
-    console.warn("Warning: the `Container` in `_app` has been deprecated and should be removed. https://err.sh/zeit/next.js/app-container-deprecated");
-  });
-  warnUrl = (0, _utils.execOnce)(function () {
-    console.error("Warning: the 'url' property is deprecated. https://err.sh/zeit/next.js/url-deprecated");
-  });
-} // @deprecated noop for now until removal
-
-
-function Container(p) {
-  if (true) warnContainer();
-  return p.children;
-}
-
-function createUrl(router) {
-  // This is to make sure we don't references the router object at call time
-  var pathname = router.pathname,
-      asPath = router.asPath,
-      query = router.query;
-  return {
-    get query() {
-      if (true) warnUrl();
-      return query;
-    },
-
-    get pathname() {
-      if (true) warnUrl();
-      return pathname;
-    },
-
-    get asPath() {
-      if (true) warnUrl();
-      return asPath;
-    },
-
-    back: function back() {
-      if (true) warnUrl();
-      router.back();
-    },
-    push: function push(url, as) {
-      if (true) warnUrl();
-      return router.push(url, as);
-    },
-    pushTo: function pushTo(href, as) {
-      if (true) warnUrl();
-      var pushRoute = as ? href : '';
-      var pushUrl = as || href;
-      return router.push(pushRoute, pushUrl);
-    },
-    replace: function replace(url, as) {
-      if (true) warnUrl();
-      return router.replace(url, as);
-    },
-    replaceTo: function replaceTo(href, as) {
-      if (true) warnUrl();
-      var replaceRoute = as ? href : '';
-      var replaceUrl = as || href;
-      return router.replace(replaceRoute, replaceUrl);
-    }
-  };
-}
 
 /***/ }),
 
@@ -7429,6 +7309,299 @@ try {
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var stylesInDom = {};
+
+var isOldIE = function isOldIE() {
+  var memo;
+  return function memorize() {
+    if (typeof memo === 'undefined') {
+      // Test for IE <= 9 as proposed by Browserhacks
+      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+      // Tests for existence of standard globals is to allow style-loader
+      // to operate correctly into non-standard environments
+      // @see https://github.com/webpack-contrib/style-loader/issues/177
+      memo = Boolean(window && document && document.all && !window.atob);
+    }
+
+    return memo;
+  };
+}();
+
+var getTarget = function getTarget() {
+  var memo = {};
+  return function memorize(target) {
+    if (typeof memo[target] === 'undefined') {
+      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
+
+      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+        try {
+          // This will throw an exception if access to iframe is blocked
+          // due to cross-origin restrictions
+          styleTarget = styleTarget.contentDocument.head;
+        } catch (e) {
+          // istanbul ignore next
+          styleTarget = null;
+        }
+      }
+
+      memo[target] = styleTarget;
+    }
+
+    return memo[target];
+  };
+}();
+
+function listToStyles(list, options) {
+  var styles = [];
+  var newStyles = {};
+
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var css = item[1];
+    var media = item[2];
+    var sourceMap = item[3];
+    var part = {
+      css: css,
+      media: media,
+      sourceMap: sourceMap
+    };
+
+    if (!newStyles[id]) {
+      styles.push(newStyles[id] = {
+        id: id,
+        parts: [part]
+      });
+    } else {
+      newStyles[id].parts.push(part);
+    }
+  }
+
+  return styles;
+}
+
+function addStylesToDom(styles, options) {
+  for (var i = 0; i < styles.length; i++) {
+    var item = styles[i];
+    var domStyle = stylesInDom[item.id];
+    var j = 0;
+
+    if (domStyle) {
+      domStyle.refs++;
+
+      for (; j < domStyle.parts.length; j++) {
+        domStyle.parts[j](item.parts[j]);
+      }
+
+      for (; j < item.parts.length; j++) {
+        domStyle.parts.push(addStyle(item.parts[j], options));
+      }
+    } else {
+      var parts = [];
+
+      for (; j < item.parts.length; j++) {
+        parts.push(addStyle(item.parts[j], options));
+      }
+
+      stylesInDom[item.id] = {
+        id: item.id,
+        refs: 1,
+        parts: parts
+      };
+    }
+  }
+}
+
+function insertStyleElement(options) {
+  var style = document.createElement('style');
+
+  if (typeof options.attributes.nonce === 'undefined') {
+    var nonce =  true ? __webpack_require__.nc : undefined;
+
+    if (nonce) {
+      options.attributes.nonce = nonce;
+    }
+  }
+
+  Object.keys(options.attributes).forEach(function (key) {
+    style.setAttribute(key, options.attributes[key]);
+  });
+
+  if (typeof options.insert === 'function') {
+    options.insert(style);
+  } else {
+    var target = getTarget(options.insert || 'head');
+
+    if (!target) {
+      throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+    }
+
+    target.appendChild(style);
+  }
+
+  return style;
+}
+
+function removeStyleElement(style) {
+  // istanbul ignore if
+  if (style.parentNode === null) {
+    return false;
+  }
+
+  style.parentNode.removeChild(style);
+}
+/* istanbul ignore next  */
+
+
+var replaceText = function replaceText() {
+  var textStore = [];
+  return function replace(index, replacement) {
+    textStore[index] = replacement;
+    return textStore.filter(Boolean).join('\n');
+  };
+}();
+
+function applyToSingletonTag(style, index, remove, obj) {
+  var css = remove ? '' : obj.css; // For old IE
+
+  /* istanbul ignore if  */
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = replaceText(index, css);
+  } else {
+    var cssNode = document.createTextNode(css);
+    var childNodes = style.childNodes;
+
+    if (childNodes[index]) {
+      style.removeChild(childNodes[index]);
+    }
+
+    if (childNodes.length) {
+      style.insertBefore(cssNode, childNodes[index]);
+    } else {
+      style.appendChild(cssNode);
+    }
+  }
+}
+
+function applyToTag(style, options, obj) {
+  var css = obj.css;
+  var media = obj.media;
+  var sourceMap = obj.sourceMap;
+
+  if (media) {
+    style.setAttribute('media', media);
+  }
+
+  if (sourceMap && btoa) {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  } // For old IE
+
+  /* istanbul ignore if  */
+
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    while (style.firstChild) {
+      style.removeChild(style.firstChild);
+    }
+
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+var singleton = null;
+var singletonCounter = 0;
+
+function addStyle(obj, options) {
+  var style;
+  var update;
+  var remove;
+
+  if (options.singleton) {
+    var styleIndex = singletonCounter++;
+    style = singleton || (singleton = insertStyleElement(options));
+    update = applyToSingletonTag.bind(null, style, styleIndex, false);
+    remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+  } else {
+    style = insertStyleElement(options);
+    update = applyToTag.bind(null, style, options);
+
+    remove = function remove() {
+      removeStyleElement(style);
+    };
+  }
+
+  update(obj);
+  return function updateStyle(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {
+        return;
+      }
+
+      update(obj = newObj);
+    } else {
+      remove();
+    }
+  };
+}
+
+module.exports = function (list, options) {
+  options = options || {};
+  options.attributes = typeof options.attributes === 'object' ? options.attributes : {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+  // tags it will allow on a page
+
+  if (!options.singleton && typeof options.singleton !== 'boolean') {
+    options.singleton = isOldIE();
+  }
+
+  var styles = listToStyles(list, options);
+  addStylesToDom(styles, options);
+  return function update(newList) {
+    var mayRemove = [];
+
+    for (var i = 0; i < styles.length; i++) {
+      var item = styles[i];
+      var domStyle = stylesInDom[item.id];
+
+      if (domStyle) {
+        domStyle.refs--;
+        mayRemove.push(domStyle);
+      }
+    }
+
+    if (newList) {
+      var newStyles = listToStyles(newList, options);
+      addStylesToDom(newStyles, options);
+    }
+
+    for (var _i = 0; _i < mayRemove.length; _i++) {
+      var _domStyle = mayRemove[_i];
+
+      if (_domStyle.refs === 0) {
+        for (var j = 0; j < _domStyle.parts.length; j++) {
+          _domStyle.parts[j]();
+        }
+
+        delete stylesInDom[_domStyle.id];
+      }
+    }
+  };
+};
+
+/***/ }),
+
 /***/ "./node_modules/url/url.js":
 /*!*********************************!*\
   !*** ./node_modules/url/url.js ***!
@@ -8265,14 +8438,111 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ 0:
-/*!*****************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app ./node_modules/next/dist/client/router.js ***!
-  \*****************************************************************************************************************************************/
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyApp; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles.css */ "./styles.css");
+/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_2__);
+
+var _jsxFileName = "/home/ruiyuan/MyGithub/PersonalWebsite/pages/_app.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+ // import App from 'next/app'
+// This default export is required in a new `pages/_app.js` file.
+
+function MyApp(_ref) {
+  var Component = _ref.Component,
+      pageProps = _ref.pageProps;
+  return __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }));
+}
+
+/***/ }),
+
+/***/ "./styles.css":
+/*!********************!*\
+  !*** ./styles.css ***!
+  \********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app!./");
+var content = __webpack_require__(/*! !./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??__nextjs_postcss!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./styles.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = function(element){// These elements should always exist. If they do not,
+// this code should fail.
+var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
+// Each style tag should be placed right before our
+// anchor. By inserting before and not after, we do not
+// need to track the last inserted element.
+parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
+//
+// After styles are injected, we need to remove the
+// <style> tags that set `body { display: none; }`.
+//
+// We use `requestAnimationFrame` as a way to defer
+// this operation since there may be multiple style
+// tags.
+;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
+options.singleton = false;
+
+var update = __webpack_require__(/*! ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??__nextjs_postcss!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./styles.css",
+      function () {
+        var newContent = __webpack_require__(/*! !./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??__nextjs_postcss!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./styles.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ 0:
+/*!*******************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js ./node_modules/next/dist/client/router.js ***!
+  \*******************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
 module.exports = __webpack_require__(/*! /home/ruiyuan/MyGithub/PersonalWebsite/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
 
 

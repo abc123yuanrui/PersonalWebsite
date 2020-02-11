@@ -80,6 +80,11 @@ and Dicson <a href="https://codepen.io/dicson/pen/waKPgQ">(https://codepen.io/di
 <p className="myP">
 </p>
 </div>
+{/* <style jsx>{`
+  `
+  
+}
+  </style> */}
 </div>
     );
   };
