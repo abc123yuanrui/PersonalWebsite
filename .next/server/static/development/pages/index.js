@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -102,27 +102,21 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Header; });
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/home/ruiyuan/MyGithub/PersonalWebsite/components/Header.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
 
 const linkStyle = {
   marginRight: 15
-}; // const Header = () => (
-//   <div>
-//     <Link href="/">
-//       <a style={linkStyle}>Home</a>
-//     </Link>
-//     <Link href="/family">
-//       <a style={linkStyle}>About</a>
-//     </Link>
-//   </div>
-// );
-
+};
 const pageTitle = 'Rui(Ray)Yuan';
 
 const MenuList = ({
@@ -134,255 +128,210 @@ const MenuList = ({
     className: classes,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 12
     },
     __self: undefined
   }, __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 13
     },
     __self: undefined
   }, __jsx("a", {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 14
     },
     __self: undefined
   }, "Home")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 16
     },
     __self: undefined
   }, __jsx("a", {
     href: "/family",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 17
     },
     __self: undefined
   }, "family")));
 };
 
-const Header = () => {
-  return (//   <div>
-    //     <title>{pageTitle}</title>
-    //     <nav className="teal lighten-1" style={{position: 'fixed', top: '0px', zIndex: '99'}}>
-    //       <div className="nav-wrapper">
-    //         <a href="" className="brand-logo left">
-    //           <img width="83px" height="50px" /></a>
-    //         <a className='hide-on-large-only dropdown-trigger right'  href='#' data-target='mobile-view'>
-    //           <div style={{marginTop: 10}}>
-    //             <img width="32px" height="32px"  />
-    //           </div>
-    //         </a>
-    //         <MenuList id="mobile-view" classes="dropdown-content" />
-    //         <MenuList id="desktop-view" classes="right hide-on-med-and-down" />
-    //       </div>
-    //     </nav>
-    //   </div>
-    __jsx("div", {
+class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "handleScroll", e => {
+      if (window.scrollY > 550) {
+        // do something at end of scroll
+        const clicked = e.target.id;
+        this.setState({
+          showBar: ' affix'
+        });
+      } else {
+        this.setState({
+          showBar: ''
+        });
+      }
+    });
+
+    this.state = {
+      showBar: ''
+    };
+    this.handleScroll = this.handleScroll.bind(this);
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  render() {
+    return __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50
+        lineNumber: 45
       },
-      __self: undefined
-    }, __jsx("nav", {
-      className: "nav",
+      __self: this
+    }, __jsx("title", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51
+        lineNumber: 46
       },
-      __self: undefined
+      __self: this
+    }, pageTitle), __jsx("nav", {
+      className: `nav${this.state.showBar}`,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47
+      },
+      __self: this
     }, __jsx("div", {
       className: "container",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52
+        lineNumber: 48
       },
-      __self: undefined
+      __self: this
     }, __jsx("div", {
       className: "logo",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 49
       },
-      __self: undefined
+      __self: this
     }, __jsx("a", {
       href: "/",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 50
       },
-      __self: undefined
+      __self: this
     }, "Your Logo")), __jsx("div", {
       id: "mainListDiv",
       className: "main_list",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56
+        lineNumber: 52
       },
-      __self: undefined
+      __self: this
     }, __jsx("ul", {
       className: "navlinks",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57
+        lineNumber: 53
       },
-      __self: undefined
+      __self: this
     }, __jsx("li", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58
+        lineNumber: 54
       },
-      __self: undefined
+      __self: this
     }, __jsx("a", {
       href: "#",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58
+        lineNumber: 54
       },
-      __self: undefined
+      __self: this
     }, "About")), __jsx("li", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59
+        lineNumber: 55
       },
-      __self: undefined
+      __self: this
     }, __jsx("a", {
       href: "#",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59
+        lineNumber: 55
       },
-      __self: undefined
+      __self: this
     }, "Portfolio")), __jsx("li", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60
+        lineNumber: 56
       },
-      __self: undefined
+      __self: this
     }, __jsx("a", {
       href: "#",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60
+        lineNumber: 56
       },
-      __self: undefined
+      __self: this
     }, "Services")), __jsx("li", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 61
+        lineNumber: 57
       },
-      __self: undefined
+      __self: this
     }, __jsx("a", {
       href: "/family",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 61
+        lineNumber: 57
       },
-      __self: undefined
+      __self: this
     }, "Family")))), __jsx("span", {
       className: "navTrigger",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 64
+        lineNumber: 60
       },
-      __self: undefined
+      __self: this
     }, __jsx("i", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 65
+        lineNumber: 61
       },
-      __self: undefined
+      __self: this
     }), __jsx("i", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 66
+        lineNumber: 62
       },
-      __self: undefined
+      __self: this
     }), __jsx("i", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67
+        lineNumber: 63
       },
-      __self: undefined
+      __self: this
     })))), __jsx("section", {
       className: "home",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 71
+        lineNumber: 67
       },
-      __self: undefined
-    }), __jsx("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 73
-      },
-      __self: undefined
-    }, __jsx("h2", {
-      className: "myH2",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 74
-      },
-      __self: undefined
-    }, "What is this ?"), __jsx("p", {
-      className: "myP",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 75
-      },
-      __self: undefined
-    }, "This is a responsive fixed navbar animated on scroll"), __jsx("p", {
-      className: "myP",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 76
-      },
-      __self: undefined
-    }, "I took inspiration from  ABDO STEIF (", __jsx("a", {
-      href: "https://codepen.io/abdosteif/pen/bRoyMb?editors=1100",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 76
-      },
-      __self: undefined
-    }, "https://codepen.io/abdosteif/pen/bRoyMb?editors=1100"), ") and Dicson ", __jsx("a", {
-      href: "https://codepen.io/dicson/pen/waKPgQ",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 77
-      },
-      __self: undefined
-    }, "(https://codepen.io/dicson/pen/waKPgQ)")), __jsx("p", {
-      className: "myP",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 78
-      },
-      __self: undefined
-    }, "I HOPE YOU FIND THIS USEFULL"), __jsx("p", {
-      className: "myP",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 79
-      },
-      __self: undefined
-    }, "Albi"), __jsx("p", {
-      className: "myP",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 80
-      },
-      __self: undefined
-    })))
-  );
-};
+      __self: this
+    }));
+  }
 
-/* harmony default export */ __webpack_exports__["default"] = (Header);
+}
 
 /***/ }),
 
@@ -2080,7 +2029,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
  // const input = testVideo.querySelector('[type=file]')
 
-const thisUrl = `https://www.youtube.com/watch?v=oUFJJNQGwhk`;
+const thisUrl = `https://drive.google.com/uc?id=1x-5P-wnfxZs84tC7DNmXmEJEJgFaLgtA`;
 const localUrl = '/videos/test.mp4';
 
 class HomePage extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
@@ -2097,19 +2046,125 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         lineNumber: 14
       },
       __self: this
-    }), __jsx("p", {
+    }), __jsx("div", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 15
       },
       __self: this
+    }, __jsx("h2", {
+      className: "myH2",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16
+      },
+      __self: this
+    }, "About me ?"), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }, "This is a responsive fixed navbar animated on scroll"), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }, "I took inspiration from  ABDO STEIF (", __jsx("a", {
+      href: "https://codepen.io/abdosteif/pen/bRoyMb?editors=1100",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }, "https://codepen.io/abdosteif/pen/bRoyMb?editors=1100"), ") and Dicson ", __jsx("a", {
+      href: "https://codepen.io/dicson/pen/waKPgQ",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }, "(https://codepen.io/dicson/pen/waKPgQ)")), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, "I HOPE YOU FIND THIS USEFULL"), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    }, "Albi"), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    }, "    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam"), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }, "Albi"), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: this
+    }, "Albi"), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30
+      },
+      __self: this
+    }, "Albi"), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31
+      },
+      __self: this
+    }, "Albi"), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32
+      },
+      __self: this
+    }, "Albi")), __jsx("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34
+      },
+      __self: this
     }, "Welcome to Next.js!"), __jsx(react_player__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      url: localUrl,
+      className: "myVideo",
+      url: thisUrl,
       playing: true,
       controls: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16
+        lineNumber: 35
+      },
+      __self: this
+    }), __jsx("img", {
+      className: "home",
+      src: "https://drive.google.com/uc?id=0Bwezf3fxXVZkakF3Rnl1dkxvR3FrM3Zlekd0UVZLYU5KQ1Rz",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36
       },
       __self: this
     }));
@@ -2121,7 +2176,7 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

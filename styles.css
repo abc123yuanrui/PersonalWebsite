@@ -6,7 +6,7 @@ body {
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
     font-size: 62.5%;
-    font-size: 14px;
+    font-size: 16px;
 }
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
@@ -19,6 +19,7 @@ body {
     position: fixed;
     line-height: 65px;
     text-align: center;
+    overflow-y: 'auto'
 }
 
 .nav div.logo {
@@ -63,7 +64,7 @@ body {
     text-decoration: none;
     color: #fff;
     line-height: 65px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .nav div.main_list ul li a:hover {
@@ -338,7 +339,7 @@ body {
 
 .affix {
     padding: 0;
-    background-color: #111;
+    background-color: rgb(31, 27, 223);
 }
 
 
@@ -360,4 +361,11 @@ body {
 	.myP {
 		padding:2%;
 	}
+}
+
+.myVideo {
+    text-align: center;
+    padding-left:15%;
+	padding-right:15%;
+    width: auto;
 }

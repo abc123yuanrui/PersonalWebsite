@@ -1,19 +1,10 @@
 import Link from 'next/link';
+import React from 'react';
 
 const linkStyle = {
   marginRight: 15
 };
 
-// const Header = () => (
-//   <div>
-//     <Link href="/">
-//       <a style={linkStyle}>Home</a>
-//     </Link>
-//     <Link href="/family">
-//       <a style={linkStyle}>About</a>
-//     </Link>
-//   </div>
-// );
 const pageTitle = 'Rui(Ray)Yuan'
 
 const MenuList = ({id, classes}) => {
@@ -29,26 +20,31 @@ const MenuList = ({id, classes}) => {
     );
   }
   
-  const Header = () => {
+  export default class Header extends React.Component{
+    constructor(props) {
+      super(props);
+      this.state = {
+          showBar:''
+      };
+      this.handleScroll = this.handleScroll.bind(this);
+    }
+    componentDidMount() {
+      window.addEventListener('scroll', this.handleScroll);
+   }
+    handleScroll = e => {
+      if (window.scrollY>550) {
+        // do something at end of scroll
+        const clicked = e.target.id
+        this.setState({showBar:  ' affix'});
+      }else{
+        this.setState({showBar:  ''});
+      }
+    }
+    render(){
     return (
-          //   <div>
-    //     <title>{pageTitle}</title>
-    //     <nav className="teal lighten-1" style={{position: 'fixed', top: '0px', zIndex: '99'}}>
-    //       <div className="nav-wrapper">
-    //         <a href="" className="brand-logo left">
-    //           <img width="83px" height="50px" /></a>
-    //         <a className='hide-on-large-only dropdown-trigger right'  href='#' data-target='mobile-view'>
-    //           <div style={{marginTop: 10}}>
-    //             <img width="32px" height="32px"  />
-    //           </div>
-    //         </a>
-    //         <MenuList id="mobile-view" classes="dropdown-content" />
-    //         <MenuList id="desktop-view" classes="right hide-on-med-and-down" />
-    //       </div>
-    //     </nav>
-    //   </div>
       <div>
-    <nav className='nav'>
+        <title>{pageTitle}</title>
+    <nav className={`nav${this.state.showBar}`} >
     <div className="container">
     <div className="logo">
         <a href="/">Your Logo</a>
@@ -70,18 +66,8 @@ const MenuList = ({id, classes}) => {
 </nav>
 <section className="home">
 </section>
-<div>
-<h2 className="myH2">What is this ?</h2>
-<p className="myP">This is a responsive fixed navbar animated on scroll</p>
-<p className="myP">I took inspiration from  ABDO STEIF (<a href="https://codepen.io/abdosteif/pen/bRoyMb?editors=1100">https://codepen.io/abdosteif/pen/bRoyMb?editors=1100</a>)
-and Dicson <a href="https://codepen.io/dicson/pen/waKPgQ">(https://codepen.io/dicson/pen/waKPgQ)</a></p>
-<p className="myP">I HOPE YOU FIND THIS USEFULL</p>
-<p className="myP">Albi</p>
-<p className="myP">
-</p>
+
 </div>
-</div>
-    );
-  };
-  
-export default Header;
+    )
+    }
+}
