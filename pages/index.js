@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player';
 import Header from '../components/Header';
 
 // const input = testVideo.querySelector('[type=file]')
-const thisUrl = `https://drive.google.com/uc?id=1x-5P-wnfxZs84tC7DNmXmEJEJgFaLgtA`;
+const thisUrl = `https://drive.google.com/uc?id=1TaIsYF-s_1ZX67c9l4K8Pwa_MY995fiK`;
 const localUrl = '/videos/test.mp4'
 
 class HomePage extends Component {
