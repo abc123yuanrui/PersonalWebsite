@@ -33,7 +33,7 @@ and Dicson <a href="https://codepen.io/dicson/pen/waKPgQ">(https://codepen.io/di
 </div>
             <p>Welcome to Next.js!</p>
             <ReactPlayer className="myVideo" url= {thisUrl} playing= {true}  controls= {true}/>
-            <img className="home" src='https://drive.google.com/uc?id=0Bwezf3fxXVZkakF3Rnl1dkxvR3FrM3Zlekd0UVZLYU5KQ1Rz'/>
+            <img className="myPic" src='https://drive.google.com/uc?id=0Bwezf3fxXVZkakF3Rnl1dkxvR3FrM3Zlekd0UVZLYU5KQ1Rz'/>
             </div>
     }
   }
