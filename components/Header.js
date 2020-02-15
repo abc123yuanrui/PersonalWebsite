@@ -47,7 +47,7 @@ const MenuList = ({id, classes}) => {
     <nav className={`nav${this.state.showBar}`} >
     <div className="container">
     <div className="logo">
-        <a href="/">Your Logo</a>
+        <a href="/"><img className="myLogo" src='/icons/logo.png'/></a>
     </div>
     <div id="mainListDiv" className="main_list">
         <ul className="navlinks">

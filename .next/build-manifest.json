@@ -1,40 +1,33 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/development/dll/dll_d6a88dbe3071bd165157.js",
+    "static/development/dll/dll_d6a88dbe3071bd165157.js.map"
+  ],
   "pages": {
     "/": [
-      "static/runtime/webpack-91b117697e716c22a78b.js",
-      "static/chunks/framework.74d547792b3163b4d6d2.js",
-      "static/chunks/commons.7e80c69c9721258d5838.js",
-      "static/runtime/main-39c2638814d6c1be7123.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_app": [
-      "static/runtime/webpack-91b117697e716c22a78b.js",
-      "static/chunks/framework.74d547792b3163b4d6d2.js",
-      "static/chunks/commons.7e80c69c9721258d5838.js",
-      "static/css/f2f1f038992415362867.css",
-      "static/runtime/main-39c2638814d6c1be7123.js",
-      "static/94TOkpcssSetpFhBRvHac/_buildManifest.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js",
+      "static/development/_buildManifest.js"
     ],
     "/_error": [
-      "static/runtime/webpack-91b117697e716c22a78b.js",
-      "static/chunks/framework.74d547792b3163b4d6d2.js",
-      "static/chunks/commons.7e80c69c9721258d5838.js",
-      "static/runtime/main-39c2638814d6c1be7123.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_polyfills": [
-      "static/runtime/polyfills-2fff68c13affbed5c162.js"
+      "static/runtime/polyfills.js",
+      "static/runtime/polyfills.js.map"
     ],
     "/family": [
-      "static/runtime/webpack-91b117697e716c22a78b.js",
-      "static/chunks/framework.74d547792b3163b4d6d2.js",
-      "static/chunks/commons.7e80c69c9721258d5838.js",
-      "static/runtime/main-39c2638814d6c1be7123.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/index": [
-      "static/runtime/webpack-91b117697e716c22a78b.js",
-      "static/chunks/framework.74d547792b3163b4d6d2.js",
-      "static/chunks/commons.7e80c69c9721258d5838.js",
-      "static/runtime/main-39c2638814d6c1be7123.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }
