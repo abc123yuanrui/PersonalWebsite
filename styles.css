@@ -432,7 +432,6 @@ height:100%;
   position:relative;
   top:0;
   left:0;
-	background: #1d0ef5;
 }
 .footer #cont{
   position:relative;
@@ -459,3 +458,35 @@ height:100%;
     margin-top:-2rem;
     margin-left: 5rem;
 }
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    height:12rem;
+    left:-50%;
+    opacity:.8;
+    position:fixed;
+    right:-50%;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  .footer-animation {
+      margin-top: .8rem;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+

@@ -110,7 +110,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const Footer = () => {
   return __jsx("div", {
-    class: "footer",
+    className: "footer",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
@@ -138,23 +138,51 @@ const Footer = () => {
     },
     __self: undefined
   }, __jsx("div", {
-    class: "footer_center",
+    className: "footer_center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: undefined
-  }, __jsx("h3", {
+  }, __jsx("div", {
+    className: "footer-animation",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
+    },
+    __self: undefined
+  }, __jsx("div", {
+    className: "bg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }), __jsx("div", {
+    className: "bg bg2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  }), __jsx("div", {
+    className: "bg bg3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: undefined
+  })), __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
     },
     __self: undefined
   }, "Contact me:"), __jsx("a", {
     href: "https://www.linkedin.com/in/rui-yuan-5953aa168/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 16
     },
     __self: undefined
   }, __jsx("img", {
@@ -162,14 +190,14 @@ const Footer = () => {
     src: "/icons/linkedin.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 16
     },
     __self: undefined
   })), __jsx("a", {
     href: "https://github.com/abc123yuanrui",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 17
     },
     __self: undefined
   }, __jsx("img", {
@@ -177,14 +205,14 @@ const Footer = () => {
     src: "/icons/github.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 17
     },
     __self: undefined
   })), __jsx("a", {
     href: "https://www.facebook.com/profile.php?id=100013714845427",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 18
     },
     __self: undefined
   }, __jsx("img", {
@@ -192,7 +220,7 @@ const Footer = () => {
     src: "/icons/fb.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 18
     },
     __self: undefined
   }))))));
