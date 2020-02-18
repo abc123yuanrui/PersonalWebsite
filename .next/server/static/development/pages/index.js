@@ -409,7 +409,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       },
       __self: this
     }, __jsx("a", {
-      href: "#",
+      href: "#projects",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 55
@@ -2272,39 +2272,137 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         lineNumber: 28
       },
       __self: this
-    }), __jsx("img", {
-      className: "myPic",
-      src: "https://drive.google.com/uc?id=0Bwezf3fxXVZkakF3Rnl1dkxvR3FrM3Zlekd0UVZLYU5KQ1Rz",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 29
-      },
-      __self: this
     })), __jsx("section", {
-      id: "project",
+      id: "projects",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31
+        lineNumber: 30
       },
       __self: this
     }, __jsx("div", {
       className: "project",
       __source: {
         fileName: _jsxFileName,
+        lineNumber: 31
+      },
+      __self: this
+    }, __jsx("h2", {
+      className: "myH2",
+      __source: {
+        fileName: _jsxFileName,
         lineNumber: 32
       },
       __self: this
-    }, __jsx("p", {
-      className: "myP",
+    }, "Projects"), __jsx("p", {
+      className: "myT",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 33
       },
       __self: this
-    }, "Got my Becholars' degree in telecommunication engineering from the Harbin Institute of Technology."))), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    }, "Alipay White Box payment system Australia | DEC2019 - FEB2020"), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34
+      },
+      __self: this
+    }, "Worked with NOVATTI company building payment system based on Alipay White Box. I worked on front end development based on Ant Design, ReactJS, Graphql, mongoDB. I also designed a pure backend server for multi url merchant QR code, which will redirect current user to different payment system based on where they scan the code (Inside Wechat, Alipay, or webbrowser)."), __jsx("p", {
+      className: "myT",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 36
+      },
+      __self: this
+    }, "Web Development | MAR2019 - DEC2019"), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37
+      },
+      __self: this
+    }, "Worked for Sage View Technology company on website development. "), __jsx("p", {
+      className: "myT",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38
+      },
+      __self: this
+    }, "Machine Learning GAN Image Caliabrater | JUN2019 - JUL2019"), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: this
+    }, "Worked for Sage View Technology company on website development. "), __jsx("p", {
+      className: "myT",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40
+      },
+      __self: this
+    }, "Capstone project | Jul2018 - Jul2019"), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41
+      },
+      __self: this
+    }, "Worked for Sage View Technology company on website development. "), __jsx("p", {
+      className: "myT",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42
+      },
+      __self: this
+    }, "PCB Digital Signal OSCILLOSCOPE | MAR2019 - DEC2019"), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43
+      },
+      __self: this
+    }, "Worked for Sage View Technology company on website development. "), __jsx("p", {
+      className: "myT",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 44
+      },
+      __self: this
+    }, "Balancing an inverted pendulum on the EV3 robot | MAR2019 - DEC2019"), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45
+      },
+      __self: this
+    }, "Worked for Sage View Technology company on website development. "), __jsx("p", {
+      className: "myT",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46
+      },
+      __self: this
+    }, "PCB GAME CONTROLLER | MAR2019 - DEC2019"), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47
+      },
+      __self: this
+    }, "Worked for Sage View Technology company on website development. "))), __jsx("img", {
+      className: "myPic",
+      src: "https://drive.google.com/uc?id=0Bwezf3fxXVZkakF3Rnl1dkxvR3FrM3Zlekd0UVZLYU5KQ1Rz",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50
+      },
+      __self: this
+    }), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 53
       },
       __self: this
     }));
