@@ -15324,10 +15324,31 @@ function (_Component) {
           lineNumber: 29
         },
         __self: this
-      })), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      })), __jsx("section", {
+        id: "project",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 31
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "project",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }, __jsx("p", {
+        className: "myP",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, "Got my Becholars' degree in telecommunication engineering from the Harbin Institute of Technology."))), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
         },
         __self: this
       }));
