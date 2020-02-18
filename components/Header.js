@@ -32,7 +32,7 @@ const MenuList = ({id, classes}) => {
       window.addEventListener('scroll', this.handleScroll);
    }
     handleScroll = e => {
-      if (window.scrollY>550) {
+      if (window.scrollY>800) {
         // do something at end of scroll
         const clicked = e.target.id
         this.setState({showBar:  ' affix'});
@@ -58,13 +58,16 @@ const MenuList = ({id, classes}) => {
         </ul>
     </div>
     <span className="navTrigger">
-        <i></i>
-        <i></i>
-        <i></i>
+    <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#">Interests</a></li>
+            <li><a href="/family">Family</a></li>
     </span>
 </div>
 </nav>
 <section className="home">
+<img src='/photos/optBackground.jpg'></img>
+<div>Rui Yuan</div>
 </section>
 
 </div>
