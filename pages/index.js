@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 // const input = testVideo.querySelector('[type=file]')
 const thisUrl = `https://drive.google.com/uc?id=1TaIsYF-s_1ZX67c9l4K8Pwa_MY995fiK`;
-const localUrl = '/videos/test.mp4'
+const localUrl = '/videos/introduction.mp4'
 
 class HomePage extends Component {
 
@@ -25,7 +25,7 @@ class HomePage extends Component {
                 <p className="myP">I’m really keen to take the next step in my career and begin to apply my skills.
 </p>
             </div>
-            <ReactPlayer className="myVideo" url= {thisUrl} playing= {true}  controls= {true}/>
+            <ReactPlayer className="myVideo" url= {localUrl} playing= {true}  controls= {true}/>
             </section>
             <section id='projects'>
                 <div className = 'project'>
