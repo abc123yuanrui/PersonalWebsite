@@ -13,19 +13,24 @@ class HomePage extends Component {
     render(){
         return <div>
             <Header />
+            <section id='about'>
             <div>
-<h2 className="myH2">About me ?</h2>
-<p className="myP">I am Ray</p>
-<p className="myP">My project sources can be found on (<a href="https://github.com/abc123yuanrui">My Github Profile</a>) </p>
-<p className="myP">I HOPE YOU FIND THIS USEFULL</p>
-<p className="myP">Rui (Ray) Yuan</p>
-<p className="myP">	My contact info:
+<h2 className="myH2">About me</h2>
+<p className="myP">I am Ray.</p>
+<p className="myP">Got my Masters' degree in electronic engineering from the University of Melbourne. </p>
+<p className="myP">Got my Becholars' degree in telecommunication engineering from the Harbin Institute of Technology.</p>
+<p className="myP">Worked one year on web development.</p>
+<p className="myP">Have a entry level certification on network engineering (Junos-Jucia).</p>
+<p className="myP">Have a solid understanding of both hardware and software applications.</p>
+<p className="myP">I’m really keen to take the next step in my career and begin to apply my skills.
 </p>
 </div>
             <ReactPlayer className="myVideo" url= {thisUrl} playing= {true}  controls= {true}/>
             <img className="myPic" src='https://drive.google.com/uc?id=0Bwezf3fxXVZkakF3Rnl1dkxvR3FrM3Zlekd0UVZLYU5KQ1Rz'/>
+            </section>
             <Footer />
             </div>
+            
     }
   }
   
