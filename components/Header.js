@@ -52,7 +52,7 @@ const MenuList = ({id, classes}) => {
     <div id="mainListDiv" className="main_list">
         <ul className="navlinks">
             <li><a href="#about">About</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#">Interests</a></li>
             <li><a href="/family">Family</a></li>
         </ul>
