@@ -396,7 +396,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       },
       __self: this
     }, __jsx("a", {
-      href: "#",
+      href: "#about",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 54
@@ -415,7 +415,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
         lineNumber: 55
       },
       __self: this
-    }, "Portfolio")), __jsx("li", {
+    }, "Projects")), __jsx("li", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 56
@@ -428,7 +428,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
         lineNumber: 56
       },
       __self: this
-    }, "Services")), __jsx("li", {
+    }, "Interests")), __jsx("li", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 57
@@ -2193,69 +2193,83 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         lineNumber: 15
       },
       __self: this
-    }), __jsx("div", {
+    }), __jsx("section", {
+      id: "about",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 16
+      },
+      __self: this
+    }, __jsx("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
       },
       __self: this
     }, __jsx("h2", {
       className: "myH2",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
-      },
-      __self: this
-    }, "About me ?"), __jsx("p", {
-      className: "myP",
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 18
       },
       __self: this
-    }, "I am Ray"), __jsx("p", {
+    }, "About me"), __jsx("p", {
       className: "myP",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 19
       },
       __self: this
-    }, "My project sources can be found on (", __jsx("a", {
-      href: "https://github.com/abc123yuanrui",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 19
-      },
-      __self: this
-    }, "My Github Profile"), ") "), __jsx("p", {
+    }, "I am Ray."), __jsx("p", {
       className: "myP",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 20
       },
       __self: this
-    }, "I HOPE YOU FIND THIS USEFULL"), __jsx("p", {
+    }, "Got my Masters' degree in electronic engineering from the University of Melbourne. "), __jsx("p", {
       className: "myP",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 21
       },
       __self: this
-    }, "Rui (Ray) Yuan"), __jsx("p", {
+    }, "Got my Becholars' degree in telecommunication engineering from the Harbin Institute of Technology."), __jsx("p", {
       className: "myP",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 22
       },
       __self: this
-    }, " My contact info:")), __jsx(react_player__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    }, "Worked one year on web development."), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: this
+    }, "Have a entry level certification on network engineering (Junos-Jucia)."), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }, "Have a solid understanding of both hardware and software applications."), __jsx("p", {
+      className: "myP",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    }, "I\u2019m really keen to take the next step in my career and begin to apply my skills.")), __jsx(react_player__WEBPACK_IMPORTED_MODULE_2___default.a, {
       className: "myVideo",
       url: thisUrl,
       playing: true,
       controls: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
+        lineNumber: 28
       },
       __self: this
     }), __jsx("img", {
@@ -2263,13 +2277,13 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       src: "https://drive.google.com/uc?id=0Bwezf3fxXVZkakF3Rnl1dkxvR3FrM3Zlekd0UVZLYU5KQ1Rz",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
+        lineNumber: 29
       },
       __self: this
-    }), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    })), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27
+        lineNumber: 31
       },
       __self: this
     }));
