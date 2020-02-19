@@ -97,7 +97,16 @@ body {
     font-weight: bolder;
   }
 
-
+.home div h1 {
+    background-image: url(/photos/NvL.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	line-height: .75;
+	margin: 10px 0;
+}
 .navTrigger {
     display: none;
 }
@@ -361,7 +370,10 @@ body {
 
 
 .project {
+    width: 100%;
     background: #EBEEEE;
+    padding-bottom: 5px;
+    padding-top: 10px;
 }
 
 

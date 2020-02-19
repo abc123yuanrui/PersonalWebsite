@@ -34,17 +34,20 @@ class HomePage extends Component {
                 <p className="myP">Worked with NOVATTI company building payment system based on Alipay White Box. I worked on front end development based on Ant Design, ReactJS, Graphql, mongoDB. 
                 I also designed a pure backend server for multi url merchant QR code, which will redirect current user to different payment system based on where they scan the code (Inside Wechat, Alipay, or webbrowser).</p>
                 <p className='myT'>Web Development | MAR2019 - DEC2019</p>
-                <p className="myP">Worked for Sage View Technology company on website development. </p>
-                <p className='myT'>Machine Learning GAN Image Caliabrater | JUN2019 - JUL2019</p>
-                <p className="myP">Worked for Sage View Technology company on website development. </p>
+                <p className="myP">Worked for Sage View Technology company on website development. My skills on PHP(wordpress), ReactJS, NodeJS, React-Native, Graphql got significantly improved during this period.</p>
+                <p className='myT'>Machine Learning GAN Image Caliabration | JUN2019 - JUL2019</p>
+                <p className="myP">Designed a two-way GAN image processor wich can caliabrate the color and enhence the details in the image. The backend server was built by PYTHON FLASK. </p>
                 <p className='myT'>Capstone project | Jul2018 - Jul2019</p>
-                <p className="myP">Worked for Sage View Technology company on website development. </p>
+                <p className="myP">City scale energy consumption modelling withan hourly resolution. Applying bottum-up approach, I designed 30 archetypes by EnergyPlus. With a long journey on cross-validation and 
+                model caliabration, I gained lots of knowledge on data analysis and project management. The visualization was conducted by Tableau. I got the first class honor on my Capstone project.</p>
                 <p className='myT'>PCB Digital Signal OSCILLOSCOPE | MAR2019 - DEC2019</p>
-                <p className="myP">Worked for Sage View Technology company on website development. </p>
+                <p className="myP">Designed a 20Mhz Digital Storage Oscilloscope and a PCB game console from schematic to hardware calibration. 
+                The specification requirements were tested by LTSPICE. The PCB schematic was built by ALTIUM Designer.</p>
                 <p className='myT'>Balancing an inverted pendulum on the EV3 robot | MAR2019 - DEC2019</p>
-                <p className="myP">Worked for Sage View Technology company on website development. </p>
+                <p className="myP">Built mathematical stability analysis and transfor function based on physical model. Programmed the robot by Matlab to balance the pendulum in different moving states.</p>
                 <p className='myT'>PCB GAME CONTROLLER | MAR2019 - DEC2019</p>
-                <p className="myP">Worked for Sage View Technology company on website development. </p>
+                <p className="myP">Designed a PCB game controller and programmed games by C. 
+                The hardware design process was accomplished by Altium Designer, while the software programming was carried out by AVR Studio. </p>
                     </div>
             </section>
             <img className="myPic" src='https://drive.google.com/uc?id=0Bwezf3fxXVZkakF3Rnl1dkxvR3FrM3Zlekd0UVZLYU5KQ1Rz'/>

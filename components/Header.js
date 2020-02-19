@@ -67,7 +67,7 @@ const MenuList = ({id, classes}) => {
 </nav>
 <section className="home">
 <img src='/photos/optBackground.jpg'></img>
-<div>Rui Yuan</div>
+<div><h1>Rui Yuan</h1></div>
 </section>
 
 </div>
