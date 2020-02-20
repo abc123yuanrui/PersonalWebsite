@@ -71,7 +71,6 @@ body {
     color: #00E676;
 }
 
-
 /* Home section  defailt background https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80*/
 
 .home {
@@ -367,7 +366,12 @@ body {
     background-color: #1f75ff;
 }
 
-
+.fix {
+    position: fixed;
+    z-index: 100;
+    padding: 0;
+    background-color: #1f75ff;
+}
 
 .project {
     width: 100%;
