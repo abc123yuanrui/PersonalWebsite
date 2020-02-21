@@ -4,33 +4,6 @@ import Footer from '../components/Footer';
 import ReactFullpage from '@fullpage/react-fullpage';
 import Head from 'next/head'
 const myKey = '8PrzOIH^y8';
-// class Interests extends Component{
-//     render(){
-//         return(
-//             <ReactFullpage
-//             scrollOverflow={true}
-//             sectionsColor={["orange", "purple", "green"]}
-//             licenseKey = {myKey}
-//             render={({ state, fullpageApi }) => {
-//               return (
-//                 <ReactFullpage.Wrapper>
-//                 <div className="section">
-//                   <p>Section 1 (welcome to fullpage.js)</p>
-//                   <button onClick={() => fullpageApi.moveSectionDown()}>
-//                     Click me to move down
-//                   </button>
-//                 </div>
-//                 <div className="section">
-//                   <p>Section 2</p>
-//                 </div>
-//               </ReactFullpage.Wrapper>
-//               );
-//             }}
-//           />
-//         )
-        
-//     }
-// }
 const originalColors = ['#ff5f45', '#0798ec', '#fc6c7c', '#435b71', 'orange', 'blue', 'purple', 'yellow'];
 
 class Interests extends Component {
