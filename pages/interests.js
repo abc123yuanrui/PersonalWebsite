@@ -13,13 +13,20 @@ class Interests extends Component {
       sectionsColor: [...originalColors],
       fullpages: [
         {
-          text: "Sports-waiting to be uploaded"
+          text: "Sports-waiting to be uploaded",
+          background:"https://thumbs.gfycat.com/AcademicNarrowAntlion-size_restricted.gif"
         },
         {
-          text: "Techs-waiting to be uploaded"
+          text: "Techs-waiting to be uploaded",
+          background:"https://thumbs.gfycat.com/FrigidPessimisticAnemonecrab-size_restricted.gif"
         },
         {
           text: "Music-waiting to be uploaded",
+          background:"https://thumbs.gfycat.com/TalkativeCheapAlpinegoat-size_restricted.gif"
+        },
+        {
+          text:　"Photos-waiting to be uploaded",
+          background:"https://thumbs.gfycat.com/IckyWeightyEasteuropeanshepherd-size_restricted.gif"
         }
       ]
     };
@@ -111,13 +118,14 @@ class Interests extends Component {
         <ReactFullpage
           navigation
           onLeave={this.onLeave.bind(this)}
-          sectionsColor={this.state.sectionsColor}
+          // sectionsColor={this.state.sectionsColor}
           licenseKey = {myKey}
           render={comp =>
             console.log("render prop change") || (
               <ReactFullpage.Wrapper>
-                {fullpages.map(({ text }) => (
-                  <div key={text} className="section">
+                {fullpages.map(({ text, background }) => (
+                  <div key={text} className="section" id={`${text}`}>
+                    <img src={background} alt='Ray-yuan Background'></img>
                     <h1>{text}</h1>
                   </div>
                 ))}
@@ -125,6 +133,7 @@ class Interests extends Component {
             )
           }
         />
+        <Footer />
       </div>
     );
   }
