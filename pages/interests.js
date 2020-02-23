@@ -133,6 +133,7 @@ class Interests extends Component {
             )
           }
         />
+        <Footer />
       </div>
     );
   }
