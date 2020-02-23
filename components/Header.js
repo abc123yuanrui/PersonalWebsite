@@ -44,6 +44,11 @@ const MenuList = ({id, classes}) => {
     return (
       <div>
         <title>{pageTitle}</title>
+        <meta name="description" content="Welcome to the personal website of Rui Yuan (Ray). 
+        Rui Yuan is a perfessioanl electronic engineer from the University of Melbourne. Rui Yuan has 
+        one year working experience on IT field and a degree in telecommunication from the Harbin 
+        Institute of Technology" />
+
     <nav className={`nav${this.state.showBar}`} >
     <div className="container">
     <div className="logo">
@@ -66,7 +71,7 @@ const MenuList = ({id, classes}) => {
 </div>
 </nav>
 <section className="home">
-<img src='/photos/optBackground.jpg'></img>
+<img src='/photos/optBackground.jpg' alt='Ray-yuan Background'></img>
 <div><h1>Rui Yuan</h1></div>
 </section>
 
