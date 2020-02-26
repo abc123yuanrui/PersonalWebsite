@@ -140,7 +140,7 @@ body {
         display: block;
     }
     .nav div.logo {
-        margin-left: 15px;
+        margin-left: 5px;
     }
     .nav div.main_list {
         width: 100%;
@@ -183,12 +183,12 @@ body {
 
 .navTrigger {
     cursor: pointer;
-    width: 30px;
+    width: 60px;
     height: 25px;
     margin: auto;
     position: absolute;
     right: 30px;
-    top: 0;
+    top: -20px;
     bottom: 0;
 }
 
@@ -373,6 +373,10 @@ body {
 .affix {
     padding: 0;
     background-color: #1f75ff;
+}
+
+.affix div span {
+    display:hidden;
 }
 
 .fix {
