@@ -24,7 +24,8 @@ const MenuList = ({id, classes}) => {
     constructor(props) {
       super(props);
       this.state = {
-          showBar:''
+          showBar:'',
+          showMenu:' hidden'
       };
       this.handleScroll = this.handleScroll.bind(this);
     }
@@ -39,6 +40,10 @@ const MenuList = ({id, classes}) => {
       }else{
         this.setState({showBar:  ''});
       }
+    }
+    showMenu =() => {
+      this.state.showMenu === '' ? this.setState({showMenu: ' hidden'}): this.setState({showMenu: ''});
+      console.log('currentState:',this.state.showMenu);
     }
     render(){
     return (
@@ -62,13 +67,13 @@ const MenuList = ({id, classes}) => {
             <li><a href="/family">Family</a></li>
         </ul>
     </div>
-    {/* <div className='mobileMenu'>menu</div> */}
-    <span className="navTrigger">
+    <div className='mobileMenu' onClick={this.showMenu}>Menu</div>
+    <div className={`navTrigger${this.state.showMenu}`} >
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="/interests">Interests</a></li>
             <li><a href="/family">Family</a></li>
-    </span>
+    </div>
 </div>
 </nav>
 <section className="home">
