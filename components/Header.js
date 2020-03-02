@@ -73,6 +73,7 @@ const MenuList = ({id, classes}) => {
             <li><a href="#projects">Projects</a></li>
             <li><a href="/interests">Interests</a></li>
             <li><a href="/family">Family</a></li>
+            <img src='https://blackfishsailing.com/wp-content/uploads/2017/01/Sidebar-Background.jpg' ></img>
     </div>
 </div>
 </nav>

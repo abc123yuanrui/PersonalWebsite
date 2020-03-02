@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 // const input = testVideo.querySelector('[type=file]')
 const thisUrl = `https://drive.google.com/uc?id=1TaIsYF-s_1ZX67c9l4K8Pwa_MY995fiK`;
-const localUrl = '/videos/introduction.mp4'
+const localUrl = '/videos/intro2.mp4'
 
 class HomePage extends Component {
 
