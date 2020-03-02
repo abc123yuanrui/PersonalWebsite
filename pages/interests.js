@@ -13,19 +13,37 @@ class Interests extends Component {
       sectionsColor: [...originalColors],
       fullpages: [
         {
-          text: "Sports-waiting to be uploaded",
+          text:{
+            title:"I like playing badminton, basketball, and jogging.",
+            line1:"Used to be a huge fan of NBA.",
+            line2:"My favorite athlete is Dwyane Wade -- my legendary 3.",
+            line3:"Found its hard to find a proper badminton court after graduated from the University"
+          },
           background:"https://thumbs.gfycat.com/AcademicNarrowAntlion-size_restricted.gif"
         },
         {
-          text: "Techs-waiting to be uploaded",
+          text:{
+            title:"I watch movie when I feel tired on work and sport.",
+            line1:"Hollywood, Bollywood, animation movies.. I like them all.",
+            line2:"Top 3 movies on my personal list are: ",
+            line3:"The Dark Knight, Infernal Affairs, Paprika"
+          },
           background:"https://thumbs.gfycat.com/FrigidPessimisticAnemonecrab-size_restricted.gif"
         },
         {
-          text: "Music-waiting to be uploaded",
+          text:{
+            title:"I am good at playing violin.",
+            line1:"PTE 80+ and certificated NAATI interpreter.",
+            line2:"Contact me if you need causal coaching on violin or PTE.",
+          },
           background:"https://thumbs.gfycat.com/TalkativeCheapAlpinegoat-size_restricted.gif"
         },
         {
-          text:　"Photos-waiting to be uploaded",
+          text:{
+            title:"I like taking photos of sceneries.",
+            line1:"The background photo in the home page is my work.",
+            line2:"scroll down to see my photo gallery and video play list (updating).",
+          },
           background:"https://thumbs.gfycat.com/IckyWeightyEasteuropeanshepherd-size_restricted.gif"
         }
       ]
@@ -124,9 +142,12 @@ class Interests extends Component {
             console.log("render prop change") || (
               <ReactFullpage.Wrapper>
                 {fullpages.map(({ text, background }) => (
-                  <div key={text} className="section" id={`${text}`}>
+                  <div key={text.title} className="section" id={`${text.title}`}>
                     <img src={background} alt='Ray-yuan Background'></img>
-                    <h1>{text}</h1>
+                    <h1 className='myT'>{text.title}</h1>
+                {text.line1 && <h1 className='myT'>{text.line1}</h1> }
+                {text.line2 && <h1 className='myT'>{text.line2}</h1> }
+                {text.line3 && <h1 className='myT'>{text.line3}</h1> }
                   </div>
                 ))}
               </ReactFullpage.Wrapper>

@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-
 // const input = testVideo.querySelector('[type=file]')
 const thisUrl = `https://drive.google.com/uc?id=1TaIsYF-s_1ZX67c9l4K8Pwa_MY995fiK`;
 const localUrl = '/videos/intro2.mp4'
