@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ReactFullpage from '@fullpage/react-fullpage';
-import Head from 'next/head'
+import Gallery from '../components/Gallery';
 const myKey = '8PrzOIH^y8';
 const originalColors = ['#ff5f45', '#0798ec', '#fc6c7c', '#435b71', 'orange', 'blue', 'purple', 'yellow'];
 
@@ -42,7 +42,7 @@ class Interests extends Component {
           text:{
             title:"I like taking photos of sceneries.",
             line1:"The background photo in the home page is my work.",
-            line2:"scroll down to see my photo gallery and video play list (updating).",
+            line2:"Check gallery section to see my photo gallery and video play list.",
           },
           background:"https://thumbs.gfycat.com/IckyWeightyEasteuropeanshepherd-size_restricted.gif"
         }

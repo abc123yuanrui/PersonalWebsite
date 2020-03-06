@@ -24,7 +24,7 @@ class HomePage extends Component {
                 <p className="myP">I’m really keen to take the next step in my career and begin to apply my skills.
 </p>
             </div>
-            <ReactPlayer className="myVideo" url= {localUrl} playing= {true}  controls= {true}/>
+            <ReactPlayer className="myVideo" url= {localUrl} playing= {true}  controls= {true} width="50%" height ="auto"/>
             </section>
             <section id='projects'>
                 <div className = 'project'>
@@ -49,7 +49,9 @@ class HomePage extends Component {
                 The hardware design process was accomplished by Altium Designer, while the software programming was carried out by AVR Studio. </p>
                     </div>
             </section>
-            <img className="myPic" src='https://drive.google.com/uc?id=0Bwezf3fxXVZkakF3Rnl1dkxvR3FrM3Zlekd0UVZLYU5KQ1Rz'/>
+            <img className="myPic" src='https://live.staticflickr.com/65535/49625617026_e984faa47d_b.jpg'
+            // src='https://drive.google.com/uc?id=0Bwezf3fxXVZkakF3Rnl1dkxvR3FrM3Zlekd0UVZLYU5KQ1Rz'
+            />
             
             
             <Footer />

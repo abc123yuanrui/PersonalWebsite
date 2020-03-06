@@ -64,7 +64,7 @@ const MenuList = ({id, classes}) => {
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="/interests">Interests</a></li>
-            <li><a href="/family">Family</a></li>
+            <li><a href="/family">Gallery</a></li>
         </ul>
     </div>
     <div className='mobileMenu' onClick={this.showMenu}>Menu</div>
@@ -72,8 +72,8 @@ const MenuList = ({id, classes}) => {
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="/interests">Interests</a></li>
-            <li><a href="/family">Family</a></li>
-            <img src='https://blackfishsailing.com/wp-content/uploads/2017/01/Sidebar-Background.jpg' ></img>
+            <li><a href="/family">Gallery</a></li>
+            <img src='https://images.pexels.com/photos/457881/pexels-photo-457881.jpeg?cs=srgb&dl=beach-calm-clouds-coast-457881.jpg&fm=jpg' ></img>
     </div>
 </div>
 </nav>
