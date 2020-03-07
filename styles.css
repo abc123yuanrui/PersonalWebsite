@@ -245,7 +245,7 @@ body {
 .navTrigger img {
     position: absolute;
     z-index: -1;
-    left:-10%;
+    left:-15%;
     top:0;
     opacity: 1;
 }
