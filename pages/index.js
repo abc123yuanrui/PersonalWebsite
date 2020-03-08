@@ -3,14 +3,23 @@ import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Loading from '../components/Loading';
 // const input = testVideo.querySelector('[type=file]')
 const thisUrl = `https://drive.google.com/uc?id=1TaIsYF-s_1ZX67c9l4K8Pwa_MY995fiK`;
 const localUrl = '/videos/intro2.mp4'
 
 class HomePage extends Component {
-
+    constructor(props) {
+        super(props);
+        this.state = { isLoading: true }
+    }
+    componentDidMount() {
+        this.setState({isLoading: false})
+    }
     render(){
-        return <div>
+        return (<div>
+            {this.state.isLoading?  <Loading />:
+            <div>
             <Header />
             <section id='about'>
             <div>
@@ -55,7 +64,9 @@ class HomePage extends Component {
             
             
             <Footer />
-            </div>
+            </div>}
+            </div>)
+       
             
     }
   }
