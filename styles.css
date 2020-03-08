@@ -246,7 +246,7 @@ body {
     position: absolute;
     z-index: -1;
     left:-15%;
-    top:0;
+    top:-80px;
     opacity: 1;
 }
 
