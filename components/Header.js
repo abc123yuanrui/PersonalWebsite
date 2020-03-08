@@ -73,7 +73,7 @@ const MenuList = ({id, classes}) => {
             <li><a href="#projects">Projects</a></li>
             <li><a href="/interests">Interests</a></li>
             <li><a href="/family">Gallery</a></li>
-            <img src='http://mckee-jaco.com/dev/wp-content/uploads/2015/05/mckeejaco_sidebar-bkg.jpg' ></img>
+            <img className={`mobileMenuBackground${this.state.showBar}Menu`} src='http://mckee-jaco.com/dev/wp-content/uploads/2015/05/mckeejaco_sidebar-bkg.jpg' ></img>
     </div>
 </div>
 </nav>

@@ -240,14 +240,26 @@ body {
     top: 80px;
     bottom: 0;
     display: block;
+    list-style-type: none;
 }
 
-.navTrigger img {
+.mobileMenuBackgroundMenu {
     position: absolute;
     z-index: -1;
     left:-15%;
     top:-80px;
     opacity: 1;
+}
+
+.mobileMenuBackground {
+    position: absolute;
+    z-index: -1;
+    left:-15%;
+    top:-80px;
+    opacity: 1;
+}
+.affixMenu {
+    top: 5px;
 }
 
 .navTrigger li {
@@ -443,6 +455,7 @@ body {
     padding: 0;
     background-color: #1f75ff;
 }
+
 
 .affix div span {
     display:hidden;
