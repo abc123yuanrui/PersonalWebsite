@@ -1,26 +1,45 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 
-const galleryUrl = {
-    sunset:"https://drive.google.com/uc?id=0Bwezf3fxXVZkZlNqM2ExY19uUlVrNW0teUF0dTZZNXJuSjE4",
-    lane:"https://drive.google.com/uc?id=1yDjSSwl4x1TgPFWCOhdPfQHSzum8FGqx",
-    sunrise:"https://drive.google.com/uc?id=1fh2KU25-JT_iL6PT_u8mHrxPgfiXBzZ_"
-}
+const gallery = [
+  {
+    url:"https://live.staticflickr.com/65535/49625616711_e464748c86_b.jpg",
+    description: "Sun rise at Flagstaff"
+  },
+  {
+    url:"https://live.staticflickr.com/65535/49625616771_59324d5dc7_b.jpg",
+    description: "A lane near my home"
+  },
+  {
+    url:"https://live.staticflickr.com/65535/49625098788_d7ac38f7d5_b.jpg",
+    description: "Sun set at Flagstaff"
+  },
+  {
+    url:"https://live.staticflickr.com/65535/49641503718_f44c513261_k.jpg",
+    description:"Level 13 in Melbourne Uni Medical School"
+  },
+  {
+    url:"https://live.staticflickr.com/65535/49642027811_4014c8f7cb_k.jpg",
+    description:"Hobart"
+  },
+  {
+    url:"https://live.staticflickr.com/65535/49641508488_e896c0db7b_k.jpg",
+    description:"Morning in Melbourne"
+  },
+  {
+    url:"https://live.staticflickr.com/65535/49642315837_6fdaeb5717_k.jpg",
+    description:"Scenary at Great Ocean Road"
+  }]
 export default () => (
    <div className='myGalleryContent'>
   <Carousel autoPlay showArrows>
-    <div>
-      <img src="https://live.staticflickr.com/65535/49625616711_e464748c86_b.jpg" />
-      <p className="legend">Sun rise at Flagstaff</p>
-    </div>
-    <div>
-      <img src="https://live.staticflickr.com/65535/49625616771_59324d5dc7_b.jpg" />
-      <p className="legend">A lane near my home</p>
-    </div>
-    <div>
-      <img src="https://live.staticflickr.com/65535/49625098788_d7ac38f7d5_b.jpg" />
-      <p className="legend">Sun set at Flagstaff</p>
-    </div>
+    {gallery.map(({url,description})=>(
+      <div>
+        <img src={url} />
+      <p className="legend">{description}</p>
+      </div>
+
+    ))}
   </Carousel>
   </div>
 );
