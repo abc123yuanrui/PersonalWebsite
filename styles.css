@@ -2,6 +2,7 @@
 html,
 body {
     margin: 0;
+    scroll-behavior: smooth;
     padding: 0;
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
@@ -271,6 +272,10 @@ body {
 	padding-left:15%;
 	padding-right:15%;
 	font-size: 20px;
+}
+.myP::selection{
+    background-color: blueviolet;
+    color: white;
 }
 .myT {
     text-align: justify;
