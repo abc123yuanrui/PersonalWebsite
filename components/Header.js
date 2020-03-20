@@ -6,19 +6,6 @@ const linkStyle = {
 };
 
 const pageTitle = 'Rui(Ray)Yuan'
-
-const MenuList = ({id, classes}) => {
-    return (
-        <ul id={id} className={classes}>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/family">family</a>
-          </li>
-        </ul>
-    );
-  }
   
   export default class Header extends React.Component{
     constructor(props) {
@@ -65,6 +52,7 @@ const MenuList = ({id, classes}) => {
             <li><a href="#projects">Projects</a></li>
             <li><a href="/interests">Interests</a></li>
             <li><a href="/family">Gallery</a></li>
+            <li><a href="/service">Service</a></li>
         </ul>
     </div>
     <div className='mobileMenu' onClick={this.showMenu}>Menu</div>
@@ -73,6 +61,7 @@ const MenuList = ({id, classes}) => {
             <li><a href="#projects">Projects</a></li>
             <li><a href="/interests">Interests</a></li>
             <li><a href="/family">Gallery</a></li>
+            <li><a href="/service">Service</a></li>
             <img className={`mobileMenuBackground${this.state.showBar}Menu`} src='/photos/sidebarBkg.jpg' ></img>
     </div>
 </div>

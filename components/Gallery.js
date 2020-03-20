@@ -34,7 +34,7 @@ export default () => (
    <div className='myGalleryContent'>
   <Carousel autoPlay showArrows>
     {gallery.map(({url,description})=>(
-      <div>
+      <div key = {description}>
         <img src={url} />
       <p className="legend">{description}</p>
       </div>
