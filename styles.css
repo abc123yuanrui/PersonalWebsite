@@ -291,17 +291,21 @@ body {
     padding-top: 100px;
     position: relative;
 }
-
-.serviceButton {
-    padding-left:40%;
+.serviceP {
+    text-align:center;
     font-size: 16px;
-    padding-top: 100px;
+    position: relative;
+}
+.serviceButton {
+    margin-left:40%;
+    font-size: 16px;
+    margin-top: 100px;
     position: relative;
 }
 
 .serviceImg {
-    padding-left: 10%;
-    padding-top: 2rem;
+    margin-left: 10%;
+    margin-top: 2rem;
     max-width: 30%;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {

@@ -1,6 +1,11 @@
 import React from 'react';
 import Loading from './Loading';
 const CartoonizeApi ='https://cryptic-savannah-08092.herokuapp.com/ImgProcess';
+const settings = {
+  max_width: 1000,
+  max_height: 1000,
+  imgSizeMax: 1400000
+}
 const toBase64 = file =>
   new Promise((resolve, reject) => {
     const reader = new FileReader();
@@ -15,23 +20,13 @@ export default class Uploader extends React.Component {
       this.onChange = this.onChange.bind(this);
       this.resetFile = this.resetFile.bind(this);
     }
-  
-    async onChange(event) {
-      this.setState({
-        isLoading:true
-      })
-      const file = event.target.files[0];
-      // const fileSize = (file.size / 1024 / 1024).toFixed(4);
-      // console.log(file, fileSize);
-      const fd = new FormData();
-      fd.append("myImage", file);
+
+    async upLoad(fd) {
       const requestOptions = {
         method: 'POST',
         // mode: 'no-cors',
         body: fd,
         };
-      
-      const url = await toBase64(file).then(data => data);
       // try{const response = await fetch(CartoonizeApi, requestOptions);
       //   if (!response.ok) {
       //     throw Error(response.statusText);
@@ -41,9 +36,7 @@ export default class Uploader extends React.Component {
       // }
       const response = await fetch(CartoonizeApi, requestOptions);
       const imageBlob = await response.blob();
-      console.log('The gathered response body:', imageBlob);
       const ImgSrc = await webkitURL.createObjectURL(imageBlob);
-      console.log('the gathered url:', ImgSrc);
       // To base 64 (bad practice)
       // const fileReaderInstance = new FileReader();
       // fileReaderInstance.readAsDataURL(imageBlob);
@@ -55,9 +48,60 @@ export default class Uploader extends React.Component {
       // }
       this.setState({
         isLoading: false,
-        url: url,
         ProcessedImgSrc: ImgSrc
       });
+    };
+  
+    async onChange(event) {
+      this.setState({
+        isLoading:true
+      })
+      const file = event.target.files[0];
+      console.log(file, typeof(file));
+      const fd = new FormData();
+      const url = await toBase64(file).then(data => data);
+      this.setState({url:url
+      });
+      if(file.size>settings.imgSizeMax){
+        // image file object to canvas
+        var canvasIn = new Image;
+        var imgInurl = url;
+        canvasIn.src = imgInurl ;
+        canvasIn.onload =()=> {
+        }
+        // wait for width and height
+        await canvasIn.onload();
+        var canvasOut = document.createElement("canvas");
+        var canvasContext = canvasOut.getContext("2d");
+        let ratio =1;
+        canvasOut.width = canvasIn.width;
+        canvasOut.height = canvasIn.height;
+        if(canvasOut.width > settings.max_width){
+          ratio = settings.max_width / canvasIn.width;
+          canvasOut.width = settings.max_width;
+          canvasOut.height = canvasOut.height * ratio;
+        }
+        if(canvasOut.height > settings.max_height){       
+          ratio = settings.max_height / canvasOut.height;
+          canvasOut.height = settings.max_height;
+          canvasOut.width = canvasOut.width * ratio;
+        }
+
+        canvasContext.drawImage(canvasIn, 0, 0, canvasOut.width, canvasOut.height);
+        const dataURL = canvasOut.toDataURL("image/png", 1);
+        async function urltoFile(url, filename, mimeType){
+          return (fetch(url)
+              .then(function(res){return res.arrayBuffer();})
+              .then(function(buf){return new File([buf], filename,{type:mimeType});})
+          );
+        }
+        const newFile = await urltoFile(dataURL, 'resizedImage.png','image/PNG');
+        fd.append("myImage", newFile);
+      }else{
+        fd.append("myImage", file);
+      }
+     this.upLoad(fd);
+     this.setState({url:url});
     }
     
     resetFile(event) {
