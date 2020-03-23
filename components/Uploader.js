@@ -130,7 +130,7 @@ export default class Uploader extends React.Component {
             </div>
           )} */}
           {this.state.url && (
-              <div>
+              <div className='serviceContainer'>
             <img className='serviceImg' src={this.state.url} alt="🤫" />
             {this.state.ProcessedImgSrc && (<img className='serviceImg' src={this.state.ProcessedImgSrc} alt="🤫" />)}
             </div>
