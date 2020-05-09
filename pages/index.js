@@ -44,7 +44,7 @@ class HomePage extends Component {
                 <p className='myT'>Web Development | MAR2019 - DEC2019</p>
                 <p className="myP">Worked for Sage View Technology company on website development. My skills on PHP(wordpress), ReactJS, NodeJS, React-Native, Graphql got significantly improved during this period.</p>
                 <p className='myT'>Machine Learning GAN Image Caliabration | JUN2019 - JUL2019</p>
-                <p className="myP">Designed a two-way GAN image processor wich can caliabrate the color and enhence the details in the image. The backend server was built by PYTHON FLASK. <a href='https://vm.tiktok.com/bNaLku/'>Check this link</a></p>
+                <p className="myP">Designed a two-way GAN image processor wich can caliabrate the color and enhence the details in the image. The backend server was built by PYTHON FLASK. <a href='https://vm.tiktok.com/bNaLku/'>Small showcase video</a></p>
                 <p className='myT'>Capstone project | Jul2018 - Jul2019</p>
                 <p className="myP">City scale energy consumption modelling withan hourly resolution. Applying bottum-up approach, I designed 30 archetypes by EnergyPlus. With a long journey on cross-validation and 
                 model caliabration, I gained lots of knowledge on data analysis and project management. The visualization was conducted by Tableau. I got the first class honor on my Capstone project.</p>
