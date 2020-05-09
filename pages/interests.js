@@ -15,8 +15,8 @@ class Interests extends Component {
           text:{
             title:"I like playing badminton, basketball, and jogging.",
             line1:"Used to be a huge fan of NBA.",
-            line2:"My favorite athlete is Dwyane Wade -- my legendary 3.",
-            line3:"Found its hard to find a proper badminton court after graduated from the University"
+            line2:"My favorite athlete is Dwyane Wade.",
+            line3:"Have to look for proper badminton court after graduated from the University XD."
           },
           background:"https://thumbs.gfycat.com/AcademicNarrowAntlion-size_restricted.gif"
         },
@@ -40,7 +40,7 @@ class Interests extends Component {
         {
           text:{
             title:"I like taking photos of sceneries.",
-            line1:"The background photo in the home page is my work.",
+            line1:"The background photo in the home page shot during a trip.",
             line2:"Check gallery section to see my photo gallery and video play list.",
           },
           background:"https://thumbs.gfycat.com/IckyWeightyEasteuropeanshepherd-size_restricted.gif"
