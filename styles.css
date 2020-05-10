@@ -708,8 +708,8 @@ height:100%;
 }
 .myContactLogo {
     width: 3rem;
-    margin-top:-2rem;
-    margin-left: 5rem;
+    margin-top:-1rem;
+    margin-left: 3rem;
 }
 .bg {
     animation:slide 3s ease-in-out infinite alternate;

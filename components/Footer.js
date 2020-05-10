@@ -13,9 +13,10 @@ const Footer = () => {
               <div className="bg bg3"></div>
             </div>
              <h3>Contact me:</h3>
+             <a href="mailto:ray@ray-yuan.com"><img className="myContactLogo" src='/icons/email.png'/></a>
              <a href="https://www.linkedin.com/in/rui-yuan-5953aa168/"><img className="myContactLogo" src='/icons/linkedin.png'/></a>
              <a href="https://github.com/abc123yuanrui"><img className="myContactLogo" src='/icons/github.png'/></a>
-             <a href="https://www.facebook.com/profile.php?id=100013714845427"><img className="myContactLogo" src='/icons/fb.png'/></a>
+             <a href="https://www.facebook.com/profile.php?id=100013714845427"><img className="myContactLogo" src='/icons/fb.png'/></a>         
       </div>
       </div>
       </div>
