@@ -39,7 +39,9 @@ class HomePage extends Component {
                 <div className = 'project'>
                 <h2 className="myH2">Projects</h2>
                 <p className='myT'>Professional Year Program | OCT2019 - SEP2020</p>
-                <p className="myP">Honed my soft skills like business communication and got a Certificate IV in Business. <a href='https://ruiyuan-navitas.blogspot.com/'>Blogs I posted during Professional Year Program</a></p>
+                <p className="myP">Honed my soft skills like business communication and got a Certificate IV in Business. I was taught about comprehensive tools like Canva, Blogger, 
+                Surveymonkey, and Wix to serve the business (<a href='https://ruiyuan-navitas.blogspot.com/'>Blogs posted during Professional Year Program</a>). Additionally, my group 
+                was encourageed to do <a href='https://123abcyuanrui.wixsite.com/marketstore'>an innovative project design</a></p>
                 <p className='myT'>Alipay White Box payment system Australia | DEC2019 - FEB2020</p>
                 <p className="myP">Worked with NOVATTI company building payment system based on Alipay White Box. I worked on front end development based on Ant Design, ReactJS, Graphql, mongoDB. 
                 I also designed a pure backend server for multi url merchant QR code, which will redirect current user to different payment system based on where they scan the code (Inside Wechat, Alipay, or webbrowser).</p>
