@@ -28,7 +28,7 @@ class HomePage extends Component {
                 <p className="myP">Got my Masters' degree in electronic engineering from the University of Melbourne. </p>
                 <p className="myP">Got my Becholars' degree in telecommunication engineering from the Harbin Institute of Technology.</p>
                 <p className="myP">Worked one year on web development.</p>
-                <p className="myP">Have a entry level certification on network engineering (Junos-Jucia).</p>
+                <p className="myP">Have an entry level certification on network engineering (Junos-Jucia).</p>
                 <p className="myP">Have a solid understanding of both hardware and software applications.</p>
                 <p className="myP">I’m really keen to take the next step in my career and begin to apply my skills.</p>
                 <p className="myP"><a href='/files/RuiYuanCV.doc' download>Download my CV</a></p>
