@@ -30,14 +30,16 @@ class HomePage extends Component {
                 <p className="myP">Worked one year on web development.</p>
                 <p className="myP">Have a entry level certification on network engineering (Junos-Jucia).</p>
                 <p className="myP">Have a solid understanding of both hardware and software applications.</p>
-                <p className="myP">I’m really keen to take the next step in my career and begin to apply my skills.
-</p>
+                <p className="myP">I’m really keen to take the next step in my career and begin to apply my skills.</p>
+                <p className="myP"><a href='/files/RuiYuanCV.doc' download>Download my CV</a></p>
             </div>
             <ReactPlayer className="myVideo" url= {localUrl} playing= {true}  controls= {true} width="50%" height ="auto"/>
             </section>
             <section id='projects'>
                 <div className = 'project'>
                 <h2 className="myH2">Projects</h2>
+                <p className='myT'>Professional Year Program | OCT2019 - SEP2020</p>
+                <p className="myP">Honed my soft skills like business communication and got a Certificate IV in Business. <a href='https://ruiyuan-navitas.blogspot.com/'>Blogs I posted during Professional Year Program</a></p>
                 <p className='myT'>Alipay White Box payment system Australia | DEC2019 - FEB2020</p>
                 <p className="myP">Worked with NOVATTI company building payment system based on Alipay White Box. I worked on front end development based on Ant Design, ReactJS, Graphql, mongoDB. 
                 I also designed a pure backend server for multi url merchant QR code, which will redirect current user to different payment system based on where they scan the code (Inside Wechat, Alipay, or webbrowser).</p>
