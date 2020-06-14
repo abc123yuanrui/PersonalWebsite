@@ -16,7 +16,7 @@ class Interests extends Component {
             title:"I like playing badminton, basketball, and jogging.",
             line1:"Used to be a huge fan of NBA.",
             line2:"My favorite athlete is Dwyane Wade.",
-            line3:"Have to look for proper badminton court after graduated from the University XD."
+            line3:"Have to look for a new badminton court after graduated from the University."
           },
           background:"https://thumbs.gfycat.com/AcademicNarrowAntlion-size_restricted.gif"
         },
@@ -24,8 +24,9 @@ class Interests extends Component {
           text:{
             title:"I watch movie when I feel tired on work and sport.",
             line1:"Hollywood, Bollywood, animation movies.. I like them all.",
-            line2:"Top 3 movies on my personal list are: ",
-            line3:"The Dark Knight, Infernal Affairs, Paprika"
+            line2:"Check my Youtube channel below: ",
+            link:"https://www.youtube.com/channel/UCnIgQsgnOZcJwLDtCXIRUlw?view_as=subscriber",
+            linkName:"Ray Yuan's Youtube Channel"
           },
           background:"https://thumbs.gfycat.com/FrigidPessimisticAnemonecrab-size_restricted.gif"
         },
@@ -41,7 +42,7 @@ class Interests extends Component {
           text:{
             title:"I like taking photos of sceneries.",
             line1:"The background photo in the home page shot during a trip.",
-            line2:"Check gallery section to see my photo gallery and video play list.",
+            line2:"Check gallery section to see my photo gallery.",
           },
           background:"https://thumbs.gfycat.com/IckyWeightyEasteuropeanshepherd-size_restricted.gif"
         }
@@ -55,44 +56,44 @@ class Interests extends Component {
     // with the event
   }
 
-  handleChangeColors() {
-    const newColors =
-      this.state.sectionsColor[0] === "yellow"
-        ? [...originalColors]
-        : ["yellow", "blue", "white"];
-    this.setState({
-      sectionsColor: newColors
-    });
-  }
+  // handleChangeColors() {
+  //   const newColors =
+  //     this.state.sectionsColor[0] === "yellow"
+  //       ? [...originalColors]
+  //       : ["yellow", "blue", "white"];
+  //   this.setState({
+  //     sectionsColor: newColors
+  //   });
+  // }
 
-  handleAddSection() {
-    this.setState(state => {
-      const { fullpages } = state;
-      const { length } = fullpages;
-      fullpages.push({
-        text: `section ${length + 1}`,
-        id: Math.random()
-      });
+  // handleAddSection() {
+  //   this.setState(state => {
+  //     const { fullpages } = state;
+  //     const { length } = fullpages;
+  //     fullpages.push({
+  //       text: `section ${length + 1}`,
+  //       id: Math.random()
+  //     });
 
-      return {
-        fullpages: [...fullpages]
-      };
-    });
-  }
+  //     return {
+  //       fullpages: [...fullpages]
+  //     };
+  //   });
+  // }
 
-  handleRemoveSection() {
-    this.setState(state => {
-      const { fullpages } = state;
-      const newPages = [...fullpages];
-      newPages.pop();
+  // handleRemoveSection() {
+  //   this.setState(state => {
+  //     const { fullpages } = state;
+  //     const newPages = [...fullpages];
+  //     newPages.pop();
 
-      return { fullpages: newPages };
-    });
-  }
+  //     return { fullpages: newPages };
+  //   });
+  // }
 
-  moveSectionDown(){
-    fullpage_api.moveSectionDown();
-  }
+  // moveSectionDown(){
+  //   fullpage_api.moveSectionDown();
+  // }
 
   render() {
     const { fullpages } = this.state;
@@ -101,31 +102,31 @@ class Interests extends Component {
       return null;
     }
 
-    const Menu = () => (
-      <div
-        className="menu"
-        style={{
-          position: "fixed",
-          top: 0,
-          zIndex: 100
-        }}
-      >
-        <ul className="actions">
-          <li>
-            <button onClick={() => this.handleAddSection()}>Add Section</button>
-            <button onClick={() => this.handleRemoveSection()}>
-              Remove Section
-            </button>
-            <button onClick={() => this.handleChangeColors()}>
-              Change background colors
-            </button>
-            <button onClick={() => this.moveSectionDown()}>
-              Move Section Down
-            </button>
-          </li>
-        </ul>
-      </div>
-    );
+    // const Menu = () => (
+    //   <div
+    //     className="menu"
+    //     style={{
+    //       position: "fixed",
+    //       top: 0,
+    //       zIndex: 100
+    //     }}
+    //   >
+    //     <ul className="actions">
+    //       <li>
+    //         <button onClick={() => this.handleAddSection()}>Add Section</button>
+    //         <button onClick={() => this.handleRemoveSection()}>
+    //           Remove Section
+    //         </button>
+    //         <button onClick={() => this.handleChangeColors()}>
+    //           Change background colors
+    //         </button>
+    //         <button onClick={() => this.moveSectionDown()}>
+    //           Move Section Down
+    //         </button>
+    //       </li>
+    //     </ul>
+    //   </div>
+    // );
 
     return (
 
@@ -147,6 +148,7 @@ class Interests extends Component {
                 {text.line1 && <h1 className='myT'>{text.line1}</h1> }
                 {text.line2 && <h1 className='myT'>{text.line2}</h1> }
                 {text.line3 && <h1 className='myT'>{text.line3}</h1> }
+                {text.link && <a className='myT' href={text.link} >{text.linkName}</a> }
                   </div>
                 ))}
               </ReactFullpage.Wrapper>
