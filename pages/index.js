@@ -31,7 +31,7 @@ class HomePage extends Component {
                 <p className="myP">Have an entry level certification on network engineering (Junos-Jucia).</p>
                 <p className="myP">Have a solid understanding of both hardware and software applications.</p>
                 <p className="myP">I’m really keen to take the next step in my career and begin to apply my skills.</p>
-                <p className="myP"><a href='/files/RuiYuanCV.pdf' download>Download my CV</a></p>
+                <p className="myP"><a href='/files/RuiYuanCV2020.doc' download>Download my CV</a></p>
             </div>
             <ReactPlayer className="myVideo" url= {localUrl} playing= {true}  controls= {true} width="50%" height ="auto"/>
             </section>
