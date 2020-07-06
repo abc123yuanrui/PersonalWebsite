@@ -56,45 +56,6 @@ class Interests extends Component {
     // with the event
   }
 
-  // handleChangeColors() {
-  //   const newColors =
-  //     this.state.sectionsColor[0] === "yellow"
-  //       ? [...originalColors]
-  //       : ["yellow", "blue", "white"];
-  //   this.setState({
-  //     sectionsColor: newColors
-  //   });
-  // }
-
-  // handleAddSection() {
-  //   this.setState(state => {
-  //     const { fullpages } = state;
-  //     const { length } = fullpages;
-  //     fullpages.push({
-  //       text: `section ${length + 1}`,
-  //       id: Math.random()
-  //     });
-
-  //     return {
-  //       fullpages: [...fullpages]
-  //     };
-  //   });
-  // }
-
-  // handleRemoveSection() {
-  //   this.setState(state => {
-  //     const { fullpages } = state;
-  //     const newPages = [...fullpages];
-  //     newPages.pop();
-
-  //     return { fullpages: newPages };
-  //   });
-  // }
-
-  // moveSectionDown(){
-  //   fullpage_api.moveSectionDown();
-  // }
-
   render() {
     const { fullpages } = this.state;
 
