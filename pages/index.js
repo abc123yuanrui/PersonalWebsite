@@ -25,8 +25,8 @@ class HomePage extends Component {
             <div>
                 <h2 className="myH2">About me</h2>
                 <p className="myP">I am Ray.</p>
-                <p className="myP">Got my Masters' degree in electronic engineering from the University of Melbourne. </p>
-                <p className="myP">Got my Becholars' degree in telecommunication engineering from the Harbin Institute of Technology.</p>
+                <p className="myP">Got my Masters' degree in electronic engineering from <a href='https://en.wikipedia.org/wiki/University_of_Melbourne'>the University of Melbourne</a>. </p>
+                <p className="myP">Got my Becholars' degree in telecommunication engineering from <a href='https://en.wikipedia.org/wiki/Harbin_Institute_of_Technology'>Harbin Institute of Technology</a>.</p>
                 <p className="myP">Worked one year on web development.</p>
                 <p className="myP">Have an entry level certification on network engineering (Junos-Jucia).</p>
                 <p className="myP">Have a solid understanding of both hardware and software applications.</p>
@@ -38,14 +38,19 @@ class HomePage extends Component {
             <section id='projects'>
                 <div className = 'project'>
                 <h2 className="myH2">Projects</h2>
-                <p className='myT'>Professional Year Program | OCT2019 - SEP2020</p>
+                <p className='myT'>Research Assistant | RMIT University & RELUXE | JUL2020 - OCT2020</p>
+                <p className="myP">Manage the model development and optimisation of the research & innovation projectwith the goal to generate a more accurate and practical virtual fitting model, 
+                leveraging machine learning	methods. Details remain confidential due to the NDA.</p>
+                <p className='myT'>Trouble Shooting | JUL2020 </p>
+                <p className="myP">Fixed a bug in MIT deep learning library for MIT <a href='https://github.com/aamini/introtodeeplearning/pull/77#pullrequestreview-445175647'>Introduction to Deeplearning lab materials</a>.</p>
+                <p className='myT'>Professional Year Program | Navitas | OCT2019 - SEP2020</p>
                 <p className="myP">Honed my soft skills like business communication and got a Certificate IV in Business. I was taught about comprehensive tools like Canva, Blogger, 
                 Surveymonkey, and Wix to serve the business (<a href='https://ruiyuan-navitas.blogspot.com/'>Blogs posted during Professional Year Program</a>). Additionally, my group 
                 was encourageed to do <a href='https://123abcyuanrui.wixsite.com/marketstore'>an innovative project design</a></p>
-                <p className='myT'>Alipay White Box payment system Australia | DEC2019 - FEB2020</p>
+                <p className='myT'>Alipay White Box payment system Australia | NOVATTI & Sage View Technology | DEC2019 - FEB2020</p>
                 <p className="myP">Worked with NOVATTI company building payment system based on Alipay White Box. I worked on front end development based on Ant Design, ReactJS, Graphql, mongoDB. 
                 I also designed a pure backend server for multi url merchant QR code, which will redirect current user to different payment system based on where they scan the code (Inside Wechat, Alipay, or webbrowser).</p>
-                <p className='myT'>Web Development | MAR2019 - DEC2019</p>
+                <p className='myT'>Web Developer | Sage View Technology | MAR2019 - DEC2019</p>
                 <p className="myP">Worked for Sage View Technology company on website development. My skills on PHP(wordpress), ReactJS, NodeJS, React-Native, Graphql got significantly improved during this period.</p>
                 <p className='myT'>Machine Learning GAN Image Caliabration | JUN2019 - JUL2019</p>
                 <p className="myP">Designed a two-way GAN image processor wich can caliabrate the color and enhence the details in the image. The backend server was built by PYTHON FLASK. <a href='https://vm.tiktok.com/bNaLku/'>Small showcase video</a></p>
