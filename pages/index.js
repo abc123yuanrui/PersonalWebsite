@@ -39,8 +39,8 @@ class HomePage extends Component {
                 <div className = 'project'>
                 <h2 className="myH2">Projects</h2>
                 <p className='myT'>Research Assistant | RMIT University & RELUXE | JUL2020 - OCT2020</p>
-                <p className="myP">Manage the model development and optimisation of the research & innovation projectwith the goal to generate a more accurate and practical virtual fitting model, 
-                leveraging machine learning	methods. Details remain confidential due to the NDA.</p>
+                <p className="myP">Manage the model development and optimisation of the research & innovation project with the goal to generate a more accurate and practical virtual fitting model, 
+                leveraging machine learning	methods (info-GAN, STN, pixel2pixelHD, etc). Details remain confidential due to the NDA.</p>
                 <p className='myT'>Trouble Shooting | JUL2020 </p>
                 <p className="myP">Fixed a bug in MIT deep learning library for MIT <a href='https://github.com/aamini/introtodeeplearning/pull/77#pullrequestreview-445175647'>Introduction to Deeplearning lab materials</a>.</p>
                 <p className='myT'>Professional Year Program | Navitas | OCT2019 - SEP2020</p>

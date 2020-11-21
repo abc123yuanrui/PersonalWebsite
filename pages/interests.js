@@ -34,7 +34,7 @@ class Interests extends Component {
           text:{
             title:"I am good at playing violin.",
             line1:"PTE 80+ and certificated NAATI interpreter.",
-            line2:"Contact me if you need causal coaching on violin or PTE.",
+            line2:"My independent innovative idea 'Blockchain Browser' is shortlisted in year 2020 The Chunhui Cup Innovation and Entrepreneurship Competition for Overseas Chinese Scholars.",
           },
           background:"https://thumbs.gfycat.com/TalkativeCheapAlpinegoat-size_restricted.gif"
         },
