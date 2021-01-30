@@ -24,7 +24,7 @@ class HomePage extends Component {
             <section id='about'>
             <div>
                 <h2 className="myH2">About me</h2>
-                <p className="myP">I am Ray, an industry PhD student majoring in Electrical Engineering at the University of Adelaide. <a href='https://researchers.adelaide.edu.au/profile/r.yuan' >staff profile</a>.</p>
+                <p className="myP">I am Ray, an industry PhD student majoring in Electrical Engineering at <a href='https://en.wikipedia.org/wiki/University_of_Adelaide'>the University of Adelaide</a>. Check my <a href='https://researchers.adelaide.edu.au/profile/r.yuan' >staff profile</a>.</p>
                 <p className="myP">Got my Masters' degree in electronic engineering from <a href='https://en.wikipedia.org/wiki/University_of_Melbourne'>the University of Melbourne</a>. </p>
                 <p className="myP">Got my Becholars' degree in telecommunication engineering from <a href='https://en.wikipedia.org/wiki/Harbin_Institute_of_Technology'>Harbin Institute of Technology</a>.</p>
                 <p className="myP">Worked one year on web development.</p>
