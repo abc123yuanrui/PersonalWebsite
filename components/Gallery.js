@@ -15,7 +15,7 @@ const gallery = [
     description: "Sun rise at Flagstaff"
   },
   {
-    url:"https://live.staticflickr.com/65535/50889587116_b645fe9a10_k_d.jpg",
+    url:"https://live.staticflickr.com/65535/50889587116_76a416ff8d_k_d.jpg",
     description: "Street art"
   },
   {
