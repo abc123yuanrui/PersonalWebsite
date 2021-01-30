@@ -3,8 +3,20 @@ import { Carousel } from "react-responsive-carousel";
 
 const gallery = [
   {
+    url:"https://live.staticflickr.com/65535/50889587191_f3dd3fc7ad_k_d.jpg",
+    description: "Sun set at Adelaide beach-1"
+  },
+  {
+    url:"https://live.staticflickr.com/65535/50888874458_afbc012999_k_d.jpg",
+    description: "Sun set at Adelaide beach-2"
+  },
+  {
     url:"https://live.staticflickr.com/65535/49625616711_e464748c86_b.jpg",
     description: "Sun rise at Flagstaff"
+  },
+  {
+    url:"https://live.staticflickr.com/65535/50889587116_b645fe9a10_k_d.jpg",
+    description: "Street art"
   },
   {
     url:"https://live.staticflickr.com/65535/49625616771_59324d5dc7_b.jpg",
