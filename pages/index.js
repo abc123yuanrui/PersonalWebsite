@@ -39,9 +39,9 @@ class HomePage extends Component {
             <section id='projects'>
                 <div className = 'project'>
                 <h2 className="myH2">Projects</h2>
-                <p className='myT'>iPhD Candidate | University of Adelaide & SEAS-NVE  | JAN2021 - JAN2024</p>
+                <p className='myT'>iPhD Candidate | University of Adelaide & Watts  | JAN2021 - JAN2025</p>
                 <p className="myP">As an industry PhD student working across Australia and Denmark, I'm commencing a research aiming to develop, test, and verify statistical models based on machine learning techniques to quantify prosumers’ responsiveness to time-varying prices in real-time. 
-                My main research fields are: Renewable Energy, Contineous Demand Response, Data Mining, Machine Learning, Data Analysis, Stochastical Modelling.</p>
+                My main research fields are: Renewable Energy, Contineous Demand Response, Data Mining, Machine Learning, Data Analysis, Stochastical Modelling. My research is funded by the University of Adelaide RTP and <a href='https://watts.dk/'>Watts, Denmark</a>.</p>
                 <p className='myT'>National Award | Chunhui Cup Innovation and Entrepreneurship Competition | SEP2020 - NOV2020</p>
                 <p className="myP">My independent innovative project awarded by China Ministry of Education and the Ministry of Science and Technology.</p>
                 <p className='myT'>Research Assistant | RMIT University & RELUXE | JUL2020 - OCT2020</p>
