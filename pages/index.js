@@ -24,14 +24,15 @@ class HomePage extends Component {
             <section id='about'>
             <div>
                 <h2 className="myH2">About me</h2>
-                <p className="myP">I am Ray, an industry PhD student majoring in Electrical Engineering at <a href='https://en.wikipedia.org/wiki/University_of_Adelaide'>the University of Adelaide</a>. Check my <a href='https://researchers.adelaide.edu.au/profile/r.yuan' >staff profile</a>.</p>
+                <p className="myP">I am Ray, an industry PhD student majoring in Electrical Engineering at <a href='https://en.wikipedia.org/wiki/University_of_Adelaide'>the University of Adelaide with special top-up scholarship and research allowance</a>. Check my <a href='https://researchers.adelaide.edu.au/profile/r.yuan' >researcher profile</a>.</p>
+                <p className="myP">My research focuses on Contineous Demand Response and big data in the energy industry. This position provides me exceptional opportunities to hone my skills on data mining and machine learning. More details on <a href='https://alipourmousavi.com/research_FRESNO.html'>FRESNO Project</a>. </p>
                 <p className="myP">Got my Masters' degree in electronic engineering from <a href='https://en.wikipedia.org/wiki/University_of_Melbourne'>the University of Melbourne</a>. </p>
                 <p className="myP">Got my Becholars' degree in telecommunication engineering from <a href='https://en.wikipedia.org/wiki/Harbin_Institute_of_Technology'>Harbin Institute of Technology</a>.</p>
                 <p className="myP">Worked one year on web development.</p>
                 <p className="myP">Have an entry level certification on network engineering (Junos-Jucia).</p>
                 <p className="myP">Have a solid understanding of both hardware and software applications.</p>
                 <p className="myP">I’m really keen to take the next step in my career and begin to apply my skills.</p>
-                <p className="myP"><a href='/files/RuiYuanCV2020.doc' download>Download my CV</a></p>
+                <p className="myP"><a href='/files/RuiYuanCV.pdf' download>Download my CV</a></p>
             </div>
             <ReactPlayer className="myVideo" url= {localUrl} playing= {true}  controls= {true} width="50%" height ="auto"/>
             </section>
@@ -40,7 +41,7 @@ class HomePage extends Component {
                 <h2 className="myH2">Projects</h2>
                 <p className='myT'>iPhD Candidate | University of Adelaide & SEAS-NVE  | JAN2021 - JAN2024</p>
                 <p className="myP">As an industry PhD student working across Australia and Denmark, I'm commencing a research aiming to develop, test, and verify statistical models based on machine learning techniques to quantify prosumers’ responsiveness to time-varying prices in real-time. 
-                My main research fields are: Renewable Energy, Machine Learning, Data Analysis, Stochastical Modelling.</p>
+                My main research fields are: Renewable Energy, Contineous Demand Response, Data Mining, Machine Learning, Data Analysis, Stochastical Modelling.</p>
                 <p className='myT'>National Award | Chunhui Cup Innovation and Entrepreneurship Competition | SEP2020 - NOV2020</p>
                 <p className="myP">My independent innovative project awarded by China Ministry of Education and the Ministry of Science and Technology.</p>
                 <p className='myT'>Research Assistant | RMIT University & RELUXE | JUL2020 - OCT2020</p>
