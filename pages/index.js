@@ -24,7 +24,7 @@ class HomePage extends Component {
             <section id='about'>
             <div>
                 <h2 className="myH2">About me</h2>
-                <p className="myP">I am Ray, an industry PhD student majoring in Electrical Engineering at <a href='https://en.wikipedia.org/wiki/University_of_Adelaide'>the University of Adelaide with special top-up scholarship and research allowance</a>. Check my <a href='https://researchers.adelaide.edu.au/profile/r.yuan' >researcher profile</a>.</p>
+                <p className="myP">I am Ray, an industry PhD student majoring in Electrical Engineering at <a href='https://en.wikipedia.org/wiki/University_of_Adelaide'>the University of Adelaide</a> with special top-up scholarship and research allowance.</p>
                 <p className="myP">My research focuses on Contineous Demand Response and big data in the energy industry. This position provides me exceptional opportunities to hone my skills on data mining and machine learning. More details on <a href='https://alipourmousavi.com/research_FRESNO.html'>FRESNO Project</a>. </p>
                 <p className="myP">Got my Masters' degree in electronic engineering from <a href='https://en.wikipedia.org/wiki/University_of_Melbourne'>the University of Melbourne</a>. </p>
                 <p className="myP">Got my Becholars' degree in telecommunication engineering from <a href='https://en.wikipedia.org/wiki/Harbin_Institute_of_Technology'>Harbin Institute of Technology</a>.</p>
