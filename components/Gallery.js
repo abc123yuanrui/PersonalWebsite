@@ -11,10 +11,6 @@ const gallery = [
     description: "Korora"
   },
   {
-    url:"https://live.staticflickr.com/65535/51331669673_f0d5b93a4c_k_d.jpg",
-    description: "Waterfall"
-  },
-  {
     url:"https://live.staticflickr.com/65535/50889587191_f3dd3fc7ad_k_d.jpg",
     description: "Sun set at Adelaide beach-1"
   },
