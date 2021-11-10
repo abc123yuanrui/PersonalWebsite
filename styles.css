@@ -605,15 +605,18 @@ body {
 }
 
 
-@media all and (max-width:1000px){
+@media all and (max-width:800px){
 	.myP {
 		padding:2%;
 	}
+}
+
+@media only screen and (max-width: 1000px)  {
     .myVideo {
-        text-align: center;
-        padding-left:5%;
-        padding-right:5%;
-        width: 90%;
+        text-align: center!important;
+        padding-left:10%!important;
+        padding-right:80%!important;
+        width: 10%!important;
     }
 }
 
