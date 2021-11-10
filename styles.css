@@ -609,13 +609,19 @@ body {
 	.myP {
 		padding:2%;
 	}
+    .myVideo {
+        text-align: center;
+        padding-left:15%;
+        padding-right:15%;
+        width: auto;
+    }
 }
 
 .myVideo {
     text-align: center;
-    padding-left:24%;
-	padding-right:15%;
-    width: auto;
+    padding-left:33%;
+	padding-right:33%;
+    width: 33%;
 }
 .myPic {
     width: 100%;

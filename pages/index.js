@@ -34,7 +34,7 @@ class HomePage extends Component {
                 <p className="myP">I’m really keen to take the next step in my career and begin to apply my skills.</p>
                 <p className="myP"><a href='/files/RuiYuanCV.pdf' download>Download my CV</a></p>
             </div>
-            <ReactPlayer className="myVideo" url= {localUrl} playing= {true}  controls= {true} width="50%" height ="auto"/>
+            <ReactPlayer className="myVideo" url= {localUrl} playing= {true}  controls= {true} height ="auto"/>
             </section>
             <section id='projects'>
                 <div className = 'project'>
@@ -80,8 +80,9 @@ class HomePage extends Component {
                 <p className="myP">In this paper, we seek to identify residential rooftop solar PV owners using imported energy data. To solve this problem with an interpretable, fast, secure, and maintainable solution, 
                 we propose Interpretable Refined Motifs And binary Classification (IRMAC) method, which includes a shape-based dimensionality reduction technique we call Refined Motif (RM), and a classification technique with linear complexity to identify solar owners. 
                 Furthermore, with the real data from Australia and Denmark, the proposed method is tested and verified in identifying PV owners as well as identifying electrical heating system users. <a href='https://arxiv.org/pdf/2109.13732.pdf'>Preprint</a>. </p>
-                <p className='myT'>3rd Technical Challenge of the IEEE Computational Intelligence Society - Shortlisted | Sep2021 - Oct2021</p>
-                <p className="myP">This competition contains two objectives conducting energy prediction and class schedule optimisation. I proposed a novel Solar Generation Prediction model based on Refined Motifs and Resnet for tackling the multi-variate prediction problem.</p>
+                <p className='myT'>3rd Technical Challenge of the IEEE Computational Intelligence Society - Shortlisted | Sep2021 - Nov2021</p>
+                <p className="myP">This competition contains two objectives conducting energy prediction and class schedule optimisation. I proposed a novel Solar Generation Prediction model based on Refined Motifs and Resnet for tackling the multi-variate prediction problem.
+                The competition included two phases, our prediction solution ranked 3rd in phase 1 and 7th in phase 2 among all 19 entities.</p>
             </div>
             </section>
             <img className="myPic" src='https://live.staticflickr.com/65535/49625617026_e984faa47d_b.jpg'
