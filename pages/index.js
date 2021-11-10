@@ -73,6 +73,18 @@ class HomePage extends Component {
                 The hardware design process was accomplished by Altium Designer, while the software programming was carried out by AVR Studio. </p>
                     </div>
             </section>
+            <section id='publications'>
+            <div>
+                <h2 className="myH2">Publications & Competitions</h2>
+                <p className='myT'>IRMAC: Interpretable Refined Motifs and Binary Classification for Rooftops PV Owners</p>
+                <p className="myP">In this paper, we seek to identify residential rooftop solar PV owners using imported energy data. To solve this problem with an interpretable, fast, secure, and maintainable solution, 
+                we propose Interpretable Refined Motifs And binary Classification (IRMAC) method, which includes a shape-based dimensionality reduction technique we call Refined Motif (RM), and a classification technique with linear complexity to identify solar owners. 
+                Furthermore, with the real data from Australia and Denmark, the proposed method is tested and verified in identifying PV owners as well as identifying electrical heating system users. <a href='https://arxiv.org/pdf/2109.13732.pdf'>Preprint</a>. </p>
+                <p className='myT'>3rd Technical Challenge of the IEEE Computational Intelligence Society - Shortlisted | Sep2021 - Oct2021</p>
+                <p className="myP">This competition contains two objectives conducting energy prediction and class schedule optimisation. I proposed a novel Solar Generation Prediction model based on Refined Motifs and Resnet for tackling the multi-variate prediction problem.</p>
+            </div>
+            <ReactPlayer className="myVideo" url= {localUrl} playing= {true}  controls= {true} width="50%" height ="auto"/>
+            </section>
             <img className="myPic" src='https://live.staticflickr.com/65535/49625617026_e984faa47d_b.jpg'
             // src='https://drive.google.com/uc?id=0Bwezf3fxXVZkakF3Rnl1dkxvR3FrM3Zlekd0UVZLYU5KQ1Rz'
             />
