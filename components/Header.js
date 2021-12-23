@@ -55,7 +55,8 @@ const pageTitle = 'Rui(Ray)Yuan'
             <li><a href="/service">Service</a></li>
         </ul>
     </div>
-    <div className='mobileMenu' href="/interests">More</div>
+    <div className='mobileMenu'>
+      <a href="/interests">More</a></div>
     {/* <div className='mobileMenu' onClick={this.showMenu}>Menu</div>
     <div className={`navTrigger${this.state.showMenu}`} >
             <li><a href="#about">About</a></li>
