@@ -55,7 +55,8 @@ const pageTitle = 'Rui(Ray)Yuan'
             <li><a href="/service">Service</a></li>
         </ul>
     </div>
-    <div className='mobileMenu' onClick={this.showMenu}>Menu</div>
+    <div className='mobileMenu' href="/interests">More</div>
+    {/* <div className='mobileMenu' onClick={this.showMenu}>Menu</div>
     <div className={`navTrigger${this.state.showMenu}`} >
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -63,7 +64,7 @@ const pageTitle = 'Rui(Ray)Yuan'
             <li><a href="/family">Gallery</a></li>
             <li><a href="/service">Service</a></li>
             <img className={`mobileMenuBackground${this.state.showBar}Menu`} src='/photos/sidebarBkg.jpg' ></img>
-    </div>
+    </div> */}
 </div>
 </nav>
 <section className="home">
