@@ -95,7 +95,7 @@ class HomePage extends Component {
             <div className="myContact">
                 <div className = "myForm">
                 <h2>Let's Talk</h2>
-                <form target="_blank" action="https://formsubmit.co/123abcyuanrui@gmail.com" method="POST">
+                <form target="_blank" action="https://formsubmit.co/13a68587969ebef21d78cf774edd586a" method="POST">
                     <div class="form-group">
                     <div class="form-row">
                         <div class="col">
