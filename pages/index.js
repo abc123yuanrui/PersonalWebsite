@@ -85,11 +85,37 @@ class HomePage extends Component {
                 The competition included two phases, our solutions ranked 3rd in phase 1 and 6th in phase 2 among all 49 individuals/teams entities and over 700+ submissions in total. The overall ranking in the shortlisted 7 groups is at the 5th place. <a href='https://gitlab.com/ryuan/ieee-cis-data-challenge-fresno'>Project open source code</a>. </p>
             </div>
             </section>
-            <img className="myPic" src='https://live.staticflickr.com/65535/49625617026_e984faa47d_b.jpg'
-            // src='https://drive.google.com/uc?id=0Bwezf3fxXVZkakF3Rnl1dkxvR3FrM3Zlekd0UVZLYU5KQ1Rz'
-            />
+            <section id='contact'>
+            <div style={{
+                backgroundImage: `url('https://live.staticflickr.com/65535/49625617026_e984faa47d_b.jpg')`,
+                width: "100%",
+                backgroundSize: "100%",
+                backgroundRepeat: "no-repeat"
+                }}>
+            <div className="myContact">
+                <div className = "myForm">
+                <h2>Let's Talk</h2>
+                <form target="_blank" action="https://formsubmit.co/123abcyuanrui@gmail.com" method="POST">
+                    <div class="form-group">
+                    <div class="form-row">
+                        <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" />
+                        </div>
+                        <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" />
+                        </div>
+                    </div>
+                    </div>
+                    <div class="form-group">
+                    <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-dark btn-block">Send Message</button>
+                </form>
+                </div>
+            </div>
             
-            
+            </div>
+            </section>
             <Footer />
             </div>}
             </div>)
