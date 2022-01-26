@@ -82,7 +82,11 @@ class HomePage extends Component {
                 Furthermore, with the real data from Australia and Denmark, the proposed method is tested and verified in identifying PV owners as well as identifying electrical heating system users. <a href='https://arxiv.org/pdf/2109.13732.pdf'>Preprint</a>. </p>
                 <p className='myT'>3rd Technical Challenge of the IEEE Computational Intelligence Society - Ranked 5th Place | Sep2021 - Nov2021</p>
                 <p className="myP">This competition contains two objectives conducting energy prediction and class schedule optimisation. I proposed a novel Solar Generation Prediction model based on Refined Motifs and Resnet for tackling the multi-variate prediction problem.
-                The competition included two phases, our solutions ranked 3rd in phase 1 and 6th in phase 2 among all 49 individuals/teams entities and over 700+ submissions in total. The overall ranking in the shortlisted 7 groups is at the 5th place. <a href='https://gitlab.com/ryuan/ieee-cis-data-challenge-fresno'>Project open source code</a>. </p>
+                The competition included two phases, our solutions ranked 3rd in phase 1 and 6th in phase 2 among all 49 individuals/teams entities and over 700+ submissions in total. Check our solution at <a href='https://gitlab.com/ryuan/ieee-cis-data-challenge-fresno'>Project open source code</a>. The overall ranking in the shortlisted 7 groups is at the 5th place.&emsp;
+                <a href='https://www.linkedin.com/posts/faculty-of-engineering-computer-and-mathematical-sciences_ecmsuofa-activity-6888958108773838848-W3AJ' id='trig1' class = "iframe-link">News of our achievement
+                <iframe id='ifrm1'  src="https://www.linkedin.com/embed/feed/update/urn:li:share:6888958108102721536" height="1000" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                </a>
+                </p>
             </div>
             </section>
             <section id='contact'>
