@@ -39,11 +39,12 @@ class HomePage extends Component {
             <section id='projects'>
                 <div className = 'project'>
                 <h2 className="myH2">Projects</h2>
+                <p className='myT'>Web Chair | 32<sup>nd</sup> Australasian Universities Power Engineering Conference (AUPEC2022) | JAN2022 - OCT2022</p>
                 <p className='myT'>iPhD Candidate | University of Adelaide & Watts  | JAN2021 - JAN2025</p>
                 <p className="myP">As an industry PhD student working across Australia and Denmark, I'm commencing a research aiming to develop, test, and verify statistical models based on machine learning techniques to quantify prosumers’ responsiveness to time-varying prices in real-time. 
                 My main research fields are: Renewable Energy, Contineous Demand Response, Data Mining, Machine Learning, Data Analysis, Stochastical Modelling. My research is funded by the University of Adelaide RTP and <a href='https://watts.dk/'>Watts, Denmark</a>.</p>
                 <p className='myT'>National Award | Chunhui Cup Innovation and Entrepreneurship Competition | SEP2020 - NOV2020</p>
-                <p className="myP">My independent innovative project awarded by China Ministry of Education and the Ministry of Science and Technology.</p>
+                <p className="myP">My independent innovative project on Blockchain awarded by China Ministry of Education and the Ministry of Science and Technology in 15<sup>th</sup> <a href='http://cyds.cscse.edu.cn/'>Chunhui Cup Innovation and Entrepreneurship Competition</a>. I was consecutively invited to 2020 and 2021 <a href='http://ocs-gz.org.cn/'>Convention on Exchange of Overseas Talents</a>, but didn't go because of the pandemic.</p>
                 <p className='myT'>Research Assistant | RMIT University & RELUXE | JUL2020 - OCT2020</p>
                 <p className="myP">Manage the model development and optimisation of the research & innovation project with the goal to generate a more accurate and practical virtual fitting model, 
                 leveraging machine learning	methods (info-GAN, STN, pixel2pixelHD, etc). Details remain confidential due to the NDA.</p>
