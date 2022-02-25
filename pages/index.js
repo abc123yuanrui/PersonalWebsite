@@ -40,13 +40,14 @@ class HomePage extends Component {
                 <div className = 'project'>
                 <h2 className="myH2">Projects</h2>
                 <p className='myT'>Web Chair | 32<sup>nd</sup> Australasian Universities Power Engineering Conference (AUPEC2022) | JAN2022 - OCT2022</p>
+                <p className="myP">Design the official website for AUPEC 2022 and build a framework for future AUPECs. Manage the registration, paper submission and the peer review system.  </p>
                 <p className='myT'>iPhD Candidate | University of Adelaide & Watts  | JAN2021 - JAN2025</p>
                 <p className="myP">As an industry PhD student working across Australia and Denmark, I'm commencing a research aiming to develop, test, and verify statistical models based on machine learning techniques to quantify prosumers’ responsiveness to time-varying prices in real-time. 
                 My main research fields are: Renewable Energy, Contineous Demand Response, Data Mining, Machine Learning, Data Analysis, Stochastical Modelling. My research is funded by the University of Adelaide RTP and <a href='https://watts.dk/'>Watts, Denmark</a>.</p>
                 <p className='myT'>National Award | Chunhui Cup Innovation and Entrepreneurship Competition | SEP2020 - NOV2020</p>
                 <p className="myP">My independent innovative project on Blockchain awarded by China Ministry of Education and the Ministry of Science and Technology in 15<sup>th</sup> <a href='http://cyds.cscse.edu.cn/'>Chunhui Cup Innovation and Entrepreneurship Competition</a>. I was consecutively invited to 2020 and 2021 <a href='http://ocs-gz.org.cn/'>Convention on Exchange of Overseas Talents</a>, but didn't go because of the pandemic.</p>
                 <p className='myT'>Research Assistant | RMIT University & RELUXE | JUL2020 - OCT2020</p>
-                <p className="myP">Manage the model development and optimisation of the research & innovation project with the goal to generate a more accurate and practical virtual fitting model, 
+                <p className="myP">Managed the model development and optimisation of the research & innovation project with the goal to generate a more accurate and practical virtual fitting model, 
                 leveraging machine learning	methods (info-GAN, STN, pixel2pixelHD, etc). Details remain confidential due to the NDA.</p>
                 <p className='myT'>Trouble Shooting | JUL2020 </p>
                 <p className="myP">Fixed a bug in MIT deep learning library for MIT <a href='https://github.com/aamini/introtodeeplearning/pull/77#pullrequestreview-445175647'>Introduction to Deeplearning lab materials</a>.</p>
@@ -88,6 +89,14 @@ class HomePage extends Component {
                 <iframe id='ifrm1'  src="https://www.linkedin.com/embed/feed/update/urn:li:share:6888958108102721536" height="1000" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
                 </a>
                 </p>
+            </div>
+            </section>
+            <section id='teaching'>
+            <div className = 'project'>
+                <h2 className="myH2">Teaching</h2>
+                <p className='myT'>Co-supervisor | Honors Project | 2022-2023</p>
+                <p className='myT'>Demonstrator | Digital System | 2022-Now</p>
+                <p className='myT'>Advisor | Summer Research Project - Watts Women in Power Engineering | NOV2021 - MAR2022</p>
             </div>
             </section>
             <section id='contact'>
