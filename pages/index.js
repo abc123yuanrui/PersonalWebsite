@@ -94,9 +94,9 @@ class HomePage extends Component {
             <section id='teaching'>
             <div className = 'project'>
                 <h2 className="myH2">Teaching</h2>
-                <p className='myT'>Co-supervisor | Honors Project | 2022-2023</p>
-                <p className='myT'>Demonstrator | Digital System | 2022-Now</p>
-                <p className='myT'>Advisor | Summer Research Project - Watts Women in Power Engineering | NOV2021 - MAR2022</p>
+                <p className='myT'>Co-supervisor | Masters Research Project | 2022-2023</p>
+                <p className='myT'>Demonstrator & Teaching Assistant| Digital System | 2022-Now</p>
+                <p className='myT'>Co-supervisor | Summer Research Project - Watts Women in Power Engineering | NOV2021 - MAR2022</p>
             </div>
             </section>
             <section id='contact'>
