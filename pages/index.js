@@ -24,7 +24,7 @@ class HomePage extends Component {
             <section id='about'>
             <div>
                 <h2 className="myH2">About me</h2>
-                <p className="myP">I am Ray, an industry PhD student majoring in Electrical Engineering at <a href='https://en.wikipedia.org/wiki/University_of_Adelaide'>the University of Adelaide</a> with full scholarship from the Uni, top-up scholarship and research allowance from <a href='https://watts.dk/en/'>Watts, Denmark</a>.</p>
+                <p className="myP">I am Ray, an industry PhD student majoring in Electrical Engineering at <a href='https://en.wikipedia.org/wiki/University_of_Adelaide'>the University of Adelaide</a> with a full scholarship from Australian Government Research Training Program (RTP), top-up scholarship and research allowance from <a href='https://watts.dk/en/'>Watts, Denmark</a>.</p>
                 <p className="myP">My research focuses on Contineous Demand Response and big data in the energy industry. This position provides me exceptional opportunities to hone my skills on data mining and machine learning. More details on <a href='https://alipourmousavi.com/research_FRESNO.html'>FRESNO Project</a>. </p>
                 <p className="myP">Got my Masters' degree in electronic engineering from <a href='https://en.wikipedia.org/wiki/University_of_Melbourne'>the University of Melbourne</a>. </p>
                 <p className="myP">Got my Becholars' degree in telecommunication engineering from <a href='https://en.wikipedia.org/wiki/Harbin_Institute_of_Technology'>Harbin Institute of Technology</a>.</p>
@@ -40,7 +40,7 @@ class HomePage extends Component {
                 <div className = 'project'>
                 <h2 className="myH2">Projects</h2>
                 <p className='myT'>Web Chair | 32<sup>nd</sup> Australasian Universities Power Engineering Conference (AUPEC2022) | JAN2022 - OCT2022</p>
-                <p className="myP">Design the official website for AUPEC 2022 and build a framework for future AUPECs. Manage the registration, paper submission and the peer review system.  </p>
+                <p className="myP">Design the official website for <a href= 'https://aupec.info/'>AUPEC 2022</a> and build a framework for future AUPECs. Set the registration, paper submission and the peer review system for the conference.  </p>
                 <p className='myT'>iPhD Candidate | University of Adelaide & Watts  | JAN2021 - JAN2025</p>
                 <p className="myP">As an industry PhD student working across Australia and Denmark, I'm commencing a research aiming to develop, test, and verify statistical models based on machine learning techniques to quantify prosumers’ responsiveness to time-varying prices in real-time. 
                 My main research fields are: Renewable Energy, Contineous Demand Response, Data Mining, Machine Learning, Data Analysis, Stochastical Modelling. My research is funded by the University of Adelaide RTP and <a href='https://watts.dk/'>Watts, Denmark</a>.</p>
