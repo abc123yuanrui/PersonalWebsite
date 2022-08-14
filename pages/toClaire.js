@@ -43,7 +43,7 @@ class Hidden extends Component {
               line6:"和哈尔滨夜幕下的冰。",
               line7:"然后问你还需不需要；捐精XD",
             },
-            background:"/photos/hidden_bg_02.png"
+            background:"/photos/hidden_bg_03.jpg"
           },
           {
             text:{
@@ -55,7 +55,7 @@ class Hidden extends Component {
               line5:"Yours,",
               line6:"只给你变魔术的熊",
             },
-            background:"/photos/hidden_bg_02.png"
+            background:"/photos/hidden_bg_04.jpg"
           },
           {
             text:{
