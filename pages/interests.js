@@ -104,7 +104,7 @@ class Interests extends Component {
               <ReactFullpage.Wrapper>
                 {fullpages.map(({ text, background }) => (
                   <div key={text.title} className="section" id={`${text.title}`}>
-                    <img src={background} alt='Ray-yuan Background'></img>
+                    <img src={background} alt='Ray-yuan Background' className="fpImg"></img>
                     <h1 className='myT'>{text.title}</h1>
                 {text.line1 && <h1 className='myT'>{text.line1}</h1> }
                 {text.line2 && <h1 className='myT'>{text.line2}</h1> }
