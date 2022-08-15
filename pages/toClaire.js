@@ -43,7 +43,7 @@ class Hidden extends Component {
               line6:"和哈尔滨夜幕下的冰。",
               line7:"然后问你还需不需要；捐精XD",
             },
-            background:"/photos/hidden_bg_03.jpg"
+            background:"/photos/hidden_bg_03.png"
           },
           {
             text:{
@@ -74,8 +74,9 @@ class Hidden extends Component {
               line2:"对越来越好的你，希望他能一直珍惜，鼓励。",
               line3:"你想顺其自然，不想要复杂的关系。",
               line4:"我真的很痛，很气，感觉自己被你玩弄，却甘之如饴。",
-              line5:"因为我不想看互助光环，变成互相摧残。",
-              line6:"你不上头了的朋友，袁睿。",
+              line5:"只要做出这个选择的，是你，",
+              line6:"因为我不想看互助光环，变成互相摧残。",
+              line7:"自你想要的，不上头了的朋友，袁睿。",
             },
             background:"/photos/hidden_bg_05.png"
           }
