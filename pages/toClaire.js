@@ -55,7 +55,7 @@ class Hidden extends Component {
               line5:"Yours,",
               line6:"只给你变魔术的熊",
             },
-            background:"/photos/hidden_bg_04.jpg"
+            background:"/photos/hidden_bg_04.png"
           },
           {
             text:{
