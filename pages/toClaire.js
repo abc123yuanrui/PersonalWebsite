@@ -47,7 +47,7 @@ class Hidden extends Component {
           },
           {
             text:{
-              title:"未尝相思不严爱，未曾等待不谈情。",
+              title:"未尝相思不言爱，未曾等待不谈情。",
               line1:"幸而我们的感情可以换来开花结果，",
               line2:"而不是怅惘曾经。",
               line3:"希望我在你身边会让你开心轻松，辉光日新。",
@@ -75,7 +75,7 @@ class Hidden extends Component {
               line3:"你想顺其自然，不想要复杂的关系。",
               line4:"我真的很痛，很气，感觉自己被你玩弄，却甘之如饴。",
               line5:"因为我不想看互助光环，变成互相摧残。",
-              line6:"不上头了的朋友，袁睿。",
+              line6:"你不上头了的朋友，袁睿。",
             },
             background:"/photos/hidden_bg_05.png"
           }
