@@ -306,6 +306,16 @@ body {
 	font-size: 28px;
 }
 
+.music {
+    z-index: 999;
+    /* display: flex; */
+    bottom: 2%;
+    left: 10%;
+    /* width: 70%; */
+    height: 10%;
+    opacity: 0.7;
+    position:absolute;
+}
 .myHiddenT {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 32px;

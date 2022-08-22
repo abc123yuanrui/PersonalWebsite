@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
+import ReactPlayer from 'react-player';
 import Footer from '../components/Footer';
 import ReactFullpage from '@fullpage/react-fullpage';
 const myKey = '8PrzOIH^y8';
 const originalColors = ['#ff5f45', '#0798ec', '#fc6c7c', '#435b71', 'orange', 'blue', 'purple', 'yellow'];
+const localMusic = "videos/Liking.mp3"
 
 class Hidden extends Component {
     constructor(props) {
@@ -126,7 +128,11 @@ class Hidden extends Component {
       return (
   
         <div className="App">
-          {/* <Menu /> */}
+          {/* <ReactPlayer url= {localMusic} playing={true} config={{ file: { attributes: {
+    autoPlay: true,
+    muted: true
+  }}}} height ="0%"/> */}
+          <audio controls autoPlay className="music"><source src={localMusic}></source></audio>
           {/* <Navbar /> */}
           <ReactFullpage
             navigation
