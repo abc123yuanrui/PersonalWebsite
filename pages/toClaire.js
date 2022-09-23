@@ -114,8 +114,8 @@ class Hidden extends Component {
               line4:"and with him, who brings you all the moods,",
               line5:"that I can't give.",
               line6:"I'm not perfect, because I don't want to be pathetic.",
-              line7:"Whatever I said, I meant it.",
-              line7:"Whatever you said, I just want to forget.",
+              line7:"Whatever I said, I meant it with my heart.",
+              line8:"Whatever you said, I just want to forget.",
               // line7:"All this time, I knew what you thought and did. I just pretend, to be blind.",
             },
             background:"/photos/hidden_bg_05.png"
