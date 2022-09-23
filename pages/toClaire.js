@@ -110,7 +110,7 @@ class Hidden extends Component {
             text:{
               title:"Thank you,",
               line2:"Wish you all the best, ",
-              line3:"with the way you choose, the pleasure you persue,",
+              line3:"with the way you choose, the pleasure you pursue,",
               line4:"and with him, who brings you all the moods,",
               line5:"that I can't give.",
               line6:"I'm not perfect, because I don't want to be pathetic.",
