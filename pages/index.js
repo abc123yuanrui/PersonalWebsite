@@ -28,13 +28,13 @@ class HomePage extends Component {
                 <p className="myP">My research focuses on Contineous Demand Response and big data in the energy industry. This position provides me exceptional opportunities to hone my skills on data mining and machine learning. More details on <a href='https://alipourmousavi.com/research_FRESNO.html'>FRESNO Project</a>. </p>
                 <p className="myP">Got my Masters' degree in electronic engineering from <a href='https://en.wikipedia.org/wiki/University_of_Melbourne' target="blank">the University of Melbourne</a>. </p>
                 <p className="myP">Got my Becholars' degree in telecommunication engineering from <a href='https://en.wikipedia.org/wiki/Harbin_Institute_of_Technology' target="blank">Harbin Institute of Technology</a>.</p>
-                <p className="myP">Worked one year on web development.</p>
+                <p className="myP">I am a former software engineer working on web development and image processing.</p>
                 <p className="myP">Have an entry level certification on network engineering (Junos-Jucia).</p>
                 <p className="myP">Have a solid understanding of both hardware and software applications.</p>
                 <p className="myP">I’m really keen to take the next step in my career and begin to apply my skills.</p>
                 <p className="myP"><a href='/files/RuiYuanCV.pdf' download>Download my CV</a></p>
             </div>
-            <ReactPlayer className="myVideo" url= {localUrl} playing= {true}  controls= {true} height ="auto"/>
+            {/* <ReactPlayer className="myVideo" url= {localUrl} playing= {true}  controls= {true} height ="auto"/> */}
             </section>
             <section id='projects'>
                 <div className = 'project'>
@@ -45,7 +45,7 @@ class HomePage extends Component {
                 <p className="myP">As an industry PhD student working across Australia and Denmark, I'm commencing a research aiming to develop, test, and verify statistical models based on machine learning techniques to quantify prosumers’ responsiveness to time-varying prices in real-time. 
                 My main research fields are: Renewable Energy, Contineous Demand Response, Data Mining, Machine Learning, Data Analysis, Stochastical Modelling. My research is funded by the University of Adelaide RTP and <a href='https://watts.dk/' target="blank">Watts, Denmark</a>.</p>
                 <p className='myT'>National Award | Chunhui Cup Innovation and Entrepreneurship Competition | SEP2020 - NOV2020</p>
-                <p className="myP">My independent innovative project on Blockchain awarded by China Ministry of Education and the Ministry of Science and Technology in 15<sup>th</sup> <a href='http://cyds.cscse.edu.cn/' target="blank">Chunhui Cup Innovation and Entrepreneurship Competition</a>. I was consecutively invited to 2020 and 2021 <a href='http://ocs-gz.org.cn/'>Convention on Exchange of Overseas Talents</a>, but didn't go because of the pandemic.</p>
+                <p className="myP">My independent innovative project on Blockchain awarded as finalist by China Ministry of Education and the Ministry of Science and Technology in 15<sup>th</sup> <a href='http://cyds.cscse.edu.cn/' target="blank">Chunhui Cup Innovation and Entrepreneurship Competition</a>. I was consecutively invited to 2020 and 2021 <a href='http://ocs-gz.org.cn/'>Convention on Exchange of Overseas Talents</a>, but didn't go because of the pandemic.</p>
                 <p className='myT'>Research Assistant | RMIT University & RELUXE | JUL2020 - OCT2020</p>
                 <p className="myP">Managed the model development and optimisation of the research & innovation project with the goal to generate a more accurate and practical virtual fitting model, 
                 leveraging machine learning	methods (info-GAN, STN, pixel2pixelHD, etc). Details remain confidential due to the NDA.</p>
@@ -70,7 +70,7 @@ class HomePage extends Component {
                 The specification requirements were tested by LTSPICE. The PCB schematic was built by ALTIUM Designer.</p>
                 <p className='myT'>Balancing an inverted pendulum on the EV3 robot | MAR2019 - DEC2019</p>
                 <p className="myP">Built mathematical stability analysis and transfor function based on physical model. Programmed the robot by Matlab to balance the pendulum in different moving states.</p>
-                <p className='myT'>PCB GAME CONTROLLER | MAR2019 - DEC2019</p>
+                <p className='myT'>PCB GAME CONTROLLER | MAR2018 - DEC2018</p>
                 <p className="myP">Designed a PCB game controller and programmed games by C. 
                 The hardware design process was accomplished by Altium Designer, while the software programming was carried out by AVR Studio. </p>
                     </div>
@@ -78,10 +78,18 @@ class HomePage extends Component {
             <section id='publications'>
             <div>
                 <h2 className="myH2">Publications & Competitions</h2>
-                <p className='myT'>IRMAC: Interpretable Refined Motifs and Binary Classification for Rooftops PV Owners</p>
-                <p className="myP">In this paper, we seek to identify residential rooftop solar PV owners using imported energy data. To solve this problem with an interpretable, fast, secure, and maintainable solution, 
+                <p className='myT'>IRMAC: Interpretable Refined Motifs and Binary Classification for Smart Grid Applications</p>
+                <p className="myP">Authors: Rui Yuan, S. Ali Pourmousavi; Wen L. Soong; Giang Nguyen; Jon A. R. Liisberg</p>
+                <p className="myP">Accpeted by International Scientific Journal <a href='https://www.journals.elsevier.com/engineering-applications-of-artificial-intelligence' target="blank">Engineering Applications of Artificial Intelligence</a> (IF: 7.8)</p>
+                <p className="myP">Abstract: In this paper, we seek to identify residential consumers based on their BTM equipment, mainly rooftop photovoltaic (PV) systems and electric heating, using imported/purchased energy data from utility meters. To solve this problem with an interpretable, fast, secure, and maintainable solution, 
                 we propose Interpretable Refined Motifs And binary Classification (IRMAC) method, which includes a shape-based dimensionality reduction technique we call Refined Motif (RM), and a classification technique with linear complexity to identify solar owners. 
                 Furthermore, with the real data from Australia and Denmark, the proposed method is tested and verified in identifying PV owners as well as identifying electrical heating system users. <a href='https://arxiv.org/pdf/2109.13732.pdf' target="blank">Preprint</a>. </p>
+                <p className='myT'>Optimal activity and battery scheduling algorithm using load and solar generation forecasts</p>
+                <p className="myP">Authors: Yogesh Pipada Sunil Kumar, Rui Yuan, Nam Trong Dinh, S. Ali Pourmousavi</p>
+                <p className="myP">Accpeted by Australasian Universities Power Engineering Conference (AUPEC2022)</p>
+                <p className="myP">Abstract: Energy usage optimal scheduling has attracted great attention in the power system community, where various methodologies have been proposed. However, in real-world applications, the optimal scheduling problems require reliable energy forecasting, 
+                which is scarcely discussed as a joint solution to the scheduling problem. The 5<sup>th</sup> IEEE Computational Intelligence Society (IEEE-CIS) competition raised a practical problem of decreasing the electricity bill by scheduling building activities, where forecasting the solar energy generation and building consumption is a necessity. To solve this problem, we propose a technical sequence for tackling the solar PV and demand forecast and optimal scheduling problems, 
+                where solar generation prediction methods and an optimal university lectures scheduling algorithm are proposed. <a href='https://arxiv.org/abs/2210.12990' target="blank">Preprint</a>. </p>
                 <p className='myT'>3rd Technical Challenge of the IEEE Computational Intelligence Society - Ranked 5th Place | Sep2021 - Nov2021</p>
                 <p className="myP">This competition contains two objectives conducting energy prediction and class schedule optimisation. I proposed a novel Solar Generation Prediction model based on Refined Motifs and Resnet for tackling the multi-variate prediction problem.
                 The competition included two phases, our solutions ranked 3rd in phase 1 and 6th in phase 2 among all 49 individuals/teams entities and over 700+ submissions in total. Check our solution at <a href='https://gitlab.com/ryuan/ieee-cis-data-challenge-fresno' target="blank">Project open source code</a>. The overall ranking in the shortlisted 7 groups is at the 5th place.&emsp;
@@ -95,7 +103,11 @@ class HomePage extends Component {
             <div className = 'project'>
                 <h2 className="myH2">Teaching</h2>
                 <p className='myT'>Co-supervisor | Masters Research Project | 2022-2023</p>
-                <p className='myT'>Demonstrator & Teaching Assistant| Digital System | 2022-Now</p>
+                <p className='myT'>Demonstrator & Teaching Assistant | COMP_SCI_7210 PYTHON A | 2022-Now</p>
+                <p className='myT'>Demonstrator & Teaching Assistant | COMP_SCI_7211 PYTHON B | 2022-Now</p>
+                <p className='myT'>Demonstrator & Teaching Assistant | ELEC_ENG_2100 Digital System | 2022-Sem1</p>
+                <p className='myT'>Teaching Assistant| ELEC_ENG_4100 Business Management Systems | 2022-Sem2</p>
+                <p className='myT'>Teaching Assistant| ELEC_ENG_1102 Digital Electronics | 2022-Sem2</p>
                 <p className='myT'>Co-supervisor | Summer Research Project - Watts Women in Power Engineering | NOV2021 - MAR2022</p>
             </div>
             </section>
