@@ -80,10 +80,18 @@ class HomePage extends Component {
                 <h2 className="myH2">Publications & Competitions</h2>
                 <p className='myT'>IRMAC: Interpretable Refined Motifs and Binary Classification for Smart Grid Applications</p>
                 <p className="myP">Authors: Rui Yuan, S. Ali Pourmousavi; Wen L. Soong; Giang Nguyen; Jon A. R. Liisberg</p>
-                <p className="myP">Accpeted by International Scientific Journal <a href='https://www.journals.elsevier.com/engineering-applications-of-artificial-intelligence' target="blank">Engineering Applications of Artificial Intelligence</a> (IF: 7.8)</p>
+                <p className="myP">Accpeted by International Scientific Journal <a href='https://www.sciencedirect.com/science/article/abs/pii/S0952197622005784' target="blank">Engineering Applications of Artificial Intelligence</a> (IF: 7.8)</p>
                 <p className="myP">Abstract: In this paper, we seek to identify residential consumers based on their BTM equipment, mainly rooftop photovoltaic (PV) systems and electric heating, using imported/purchased energy data from utility meters. To solve this problem with an interpretable, fast, secure, and maintainable solution, 
                 we propose Interpretable Refined Motifs And binary Classification (IRMAC) method, which includes a shape-based dimensionality reduction technique we call Refined Motif (RM), and a classification technique with linear complexity to identify solar owners. 
                 Furthermore, with the real data from Australia and Denmark, the proposed method is tested and verified in identifying PV owners as well as identifying electrical heating system users. <a href='https://arxiv.org/pdf/2109.13732.pdf' target="blank">Preprint</a>. </p>
+
+                <p className='myT'>Analysis of Energy Variability and Costs for Offshore Wind and Hybrid Power Unit with Equivalent Energy Storage System</p>
+                <p className="myP">Authors: Qiang Gao, Rui Yuan, Nesimi Ertugrul, Boyin Ding, Jennifer A. Hayward, Ye Li</p>
+                <p className="myP">Accpeted by International Scientific Journal <a href='https://www.sciencedirect.com/science/article/pii/S0306261923005561' target="blank">Applied Energy</a> (IF: 11.4)</p>
+                <p className="myP">Abstract:  This paper investigates the offshore wind and wave energy intermittency and their dispatchability and proposes an equivalent energy storage system to achieve the same level of energy variability as the combined wind and wave system. This provides a thorough understanding of the power smoothing performance and firmness of energy supply in an offshore energy farm. 
+                The economic assessment of the stand-alone offshore wind system, the wind turbine with an energy storage system and the hybrid power unit system are conducted and compared via high-fidelity cost models. In addition, the sensitivities of three system configurations are investigated at multiple locations around the world, 
+                which are selected to address typical wind and sea states. The results indicate that the hybrid wind and wave power system has merits in reducing energy variability and enhancing ocean energy dispatchability while offering highly competitive cost, compared to the other two system configurations. Furthermore, the research aims to provide a guidance and support for the developers, investors and policymakers at the pre-planning stage of developing ocean renewable energy systems. </p>
+
                 <p className='myT'>Optimal activity and battery scheduling algorithm using load and solar generation forecasts</p>
                 <p className="myP">Authors: Yogesh Pipada Sunil Kumar, Rui Yuan, Nam Trong Dinh, S. Ali Pourmousavi</p>
                 <p className="myP">Accpeted by Australasian Universities Power Engineering Conference (AUPEC2022)</p>
