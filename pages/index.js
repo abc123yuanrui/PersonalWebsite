@@ -119,8 +119,8 @@ class HomePage extends Component {
             <div className = 'project'>
                 <h2 className="myH2">Teaching</h2>
                 <p className='myT'>Co-supervisor | Masters Research Project | 2022-2023</p>
-                <p className='myT'>Demonstrator & Teaching Assistant | COMP_SCI_7210 PYTHON A | 2022-Now</p>
-                <p className='myT'>Demonstrator & Teaching Assistant | COMP_SCI_7211 PYTHON B | 2022-Now</p>
+                <p className='myT'>Demonstrator & Head of Teaching Assistant | COMP_SCI_7210 Foundations of Computer Science A| 2022-Now</p>
+                <p className='myT'>Demonstrator & Head of Teaching Assistant | COMP_SCI_7211 Foundations of Computer Science B | 2022-Now</p>
                 <p className='myT'>Demonstrator & Teaching Assistant | ELEC_ENG_2100 Digital System | 2022-Sem1</p>
                 <p className='myT'>Teaching Assistant| ELEC_ENG_4100 Business Management Systems | 2022-Sem2</p>
                 <p className='myT'>Teaching Assistant| ELEC_ENG_1102 Digital Electronics | 2022-Sem2</p>
