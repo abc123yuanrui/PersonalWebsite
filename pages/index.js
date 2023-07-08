@@ -88,7 +88,7 @@ class HomePage extends Component {
 
                 <p className='myT'>IRMAC: Interpretable Refined Motifs and Binary Classification for Smart Grid Applications</p>
                 <p className="myP">Authors: Rui Yuan, S. Ali Pourmousavi; Wen L. Soong; Giang Nguyen; Jon A. R. Liisberg</p>
-                <p className="myP">Published by International Scientific Journal <a href='https://www.sciencedirect.com/science/article/abs/pii/S0952197622005784' target="blank">Engineering Applications of Artificial Intelligence</a> (IF: 7.8)</p>
+                <p className="myP">Published by International Scientific Journal <a href='https://www.sciencedirect.com/science/article/abs/pii/S0952197622005784' target="blank">Engineering Applications of Artificial Intelligence</a> (IF: 8.0)</p>
                 <p className="myP">Abstract: In this paper, we seek to identify residential consumers based on their BTM equipment, mainly rooftop photovoltaic (PV) systems and electric heating, using imported/purchased energy data from utility meters. To solve this problem with an interpretable, fast, secure, and maintainable solution, 
                 we propose Interpretable Refined Motifs And binary Classification (IRMAC) method, which includes a shape-based dimensionality reduction technique we call Refined Motif (RM), and a classification technique with linear complexity to identify solar owners. 
                 Furthermore, with the real data from Australia and Denmark, the proposed method is tested and verified in identifying PV owners as well as identifying electrical heating system users. <a href='https://arxiv.org/pdf/2109.13732.pdf' target="blank">Preprint</a>. </p>
