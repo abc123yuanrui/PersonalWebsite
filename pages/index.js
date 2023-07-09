@@ -25,13 +25,13 @@ class HomePage extends Component {
             <div>
                 <h2 className="myH2">About me</h2>
                 <p className="myP">I am Ray, an industry PhD student majoring in Electrical Engineering at <a href='https://en.wikipedia.org/wiki/University_of_Adelaide' target="blank">the University of Adelaide</a> with a full scholarship from Australian Government Research Training Program (RTP), top-up scholarship and research allowance from <a href='https://watts.dk/en/'>Watts, Denmark</a>.</p>
-                <p className="myP">My research focuses on Contineous Demand Response and big data in the energy industry. This position provides me exceptional opportunities to hone my skills on data mining and machine learning. More details on <a href='https://alipourmousavi.com/research_FRESNO.html'>FRESNO Project</a>. </p>
+                <p className="myP">My research focuses on Contineous Demand Response, data mining and machine learning in the energy industry. I have publications in many top journals (my publications' average impact factor is 9.7) and presented in international conferences. More about me:</p>
                 <p className="myP">Got my Masters' degree in electronic engineering from <a href='https://en.wikipedia.org/wiki/University_of_Melbourne' target="blank">the University of Melbourne</a>. </p>
                 <p className="myP">Got my Becholars' degree in telecommunication engineering from <a href='https://en.wikipedia.org/wiki/Harbin_Institute_of_Technology' target="blank">Harbin Institute of Technology</a>.</p>
-                <p className="myP">I am a former software engineer working on web development and image processing.</p>
+                <p className="myP">I was a software engineer working on web development and image processing.</p>
                 <p className="myP">Have an entry level certification on network engineering (Junos-Jucia).</p>
-                <p className="myP">Have a solid understanding of both hardware and software applications.</p>
-                <p className="myP">I’m really keen to take the next step in my career and begin to apply my skills.</p>
+                <p className="myP">Worked as a research assistant on a Machine learning project before started my PhD.</p>
+                <p className="myP">Worked as co-suipervisor for Masters final year project, summer research project, and head of teaching assistant for two subjects during my PhD.</p>
                 <p className="myP"><a href='/files/RuiYuanCV.pdf' download>Download my CV</a></p>
             </div>
             {/* <ReactPlayer className="myVideo" url= {localUrl} playing= {true}  controls= {true} height ="auto"/> */}
@@ -50,7 +50,7 @@ class HomePage extends Component {
                 <p className="myP">Managed the model development and optimisation of the research & innovation project with the goal to generate a more accurate and practical virtual fitting model, 
                 leveraging machine learning	methods (info-GAN, STN, pixel2pixelHD, etc). Details remain confidential due to the NDA.</p>
                 <p className='myT'>Trouble Shooting | JUL2020 </p>
-                <p className="myP">Fixed a bug in MIT deep learning library for MIT <a href='https://github.com/aamini/introtodeeplearning/pull/77#pullrequestreview-445175647' target="blank">Introduction to Deeplearning lab materials</a>.</p>
+                <p className="myP">Debug for MIT deep learning library <a href='https://github.com/aamini/introtodeeplearning/pull/77#pullrequestreview-445175647' target="blank">Introduction to Deeplearning lab materials</a>.</p>
                 <p className='myT'>Professional Year Program | Navitas | OCT2019 - SEP2020</p>
                 <p className="myP">Honed my soft skills like business communication and got a Certificate IV in Business. I was taught about comprehensive tools like Canva, Blogger, 
                 Surveymonkey, and Wix to serve the business (<a href='https://ruiyuan-navitas.blogspot.com/' target="blank">Blogs posted during Professional Year Program</a>). Additionally, my group 
@@ -80,7 +80,7 @@ class HomePage extends Component {
                 <h2 className="myH2">Publications & Competitions</h2>
                 <p className='myT'>A synthetic dataset of Danish residential electricity prosumers</p>
                 <p className="myP">Authors: Rui Yuan, S. Ali Pourmousavi, Wen L. Soong, Andrew J. Black, Jon A. R. Liisberg & Julian Lemos-Vinasco </p>
-                <p className="myP">Published by Nature <a href='https://www.nature.com/articles/s41597-023-02271-3' target="blank">Scientific Data</a> (IF: 8.5)</p>
+                <p className="myP">Published by Nature <a href='https://www.nature.com/articles/s41597-023-02271-3' target="blank">Scientific Data</a> (IF: 9.8)</p>
                 <p className="myP">Abstract: Conventional residential electricity consumers are becoming prosumers who not only consume electricity but also produce it. This shift is expected to occur over the next few decades at a large scale, and it presents numerous uncertainties and risks for the operation, planning, investment, and viable business models of the electricity grid. 
                 To prepare for this shift, researchers, utilities, policymakers, and emerging businesses require a comprehensive understanding of future prosumers’ electricity consumption. Unfortunately, there is a limited amount of data available due to privacy concerns and the slow adoption of new technologies such as battery electric vehicles and home automation. To address this issue, 
                 this paper introduces a synthetic dataset containing five types of residential prosumers’ imported and exported electricity data. The dataset was developed using real traditional consumers’ data from Denmark, PV generation data from the global solar energy estimator (GSEE) model, electric vehicle (EV) charging data generated using emobpy package, a residential energy storage system (ESS) operator 
@@ -95,7 +95,7 @@ class HomePage extends Component {
 
                 <p className='myT'>Analysis of Energy Variability and Costs for Offshore Wind and Hybrid Power Unit with Equivalent Energy Storage System</p>
                 <p className="myP">Authors: Qiang Gao, Rui Yuan, Nesimi Ertugrul, Boyin Ding, Jennifer A. Hayward, Ye Li</p>
-                <p className="myP">Published by International Scientific Journal <a href='https://www.sciencedirect.com/science/article/pii/S0306261923005561' target="blank">Applied Energy</a> (IF: 11.4)</p>
+                <p className="myP">Published by International Scientific Journal <a href='https://www.sciencedirect.com/science/article/pii/S0306261923005561' target="blank">Applied Energy</a> (IF: 11.2)</p>
                 <p className="myP">Abstract:  This paper investigates the offshore wind and wave energy intermittency and their dispatchability and proposes an equivalent energy storage system to achieve the same level of energy variability as the combined wind and wave system. This provides a thorough understanding of the power smoothing performance and firmness of energy supply in an offshore energy farm. 
                 The economic assessment of the stand-alone offshore wind system, the wind turbine with an energy storage system and the hybrid power unit system are conducted and compared via high-fidelity cost models. In addition, the sensitivities of three system configurations are investigated at multiple locations around the world, 
                 which are selected to address typical wind and sea states. The results indicate that the hybrid wind and wave power system has merits in reducing energy variability and enhancing ocean energy dispatchability while offering highly competitive cost, compared to the other two system configurations. Furthermore, the research aims to provide a guidance and support for the developers, investors and policymakers at the pre-planning stage of developing ocean renewable energy systems. </p>
