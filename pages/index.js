@@ -25,7 +25,7 @@ class HomePage extends Component {
             <div>
                 <h2 className="myH2">About me</h2>
                 <p className="myP">I am Ray, an industry PhD student majoring in Electrical Engineering at <a href='https://en.wikipedia.org/wiki/University_of_Adelaide' target="blank">the University of Adelaide</a> with a full scholarship from Australian Government Research Training Program (RTP), top-up scholarship and research allowance from <a href='https://watts.dk/en/'>Watts, Denmark</a>.</p>
-                <p className="myP">My research focuses on Contineous Demand Response, data mining and machine learning in the energy industry. I have publications in many top journals (my publications' average impact factor is 9.7) and presented in international conferences. More about me:</p>
+                <p className="myP">My research focuses on Continuous Demand Response, data mining and machine learning in the energy industry. I have publications in many top journals (my publications' average impact factor is 9.7) and presented in international conferences. More about me:</p>
                 <p className="myP">Got my Masters' degree in electronic engineering from <a href='https://en.wikipedia.org/wiki/University_of_Melbourne' target="blank">the University of Melbourne</a>. </p>
                 <p className="myP">Got my Becholars' degree in telecommunication engineering from <a href='https://en.wikipedia.org/wiki/Harbin_Institute_of_Technology' target="blank">Harbin Institute of Technology</a>.</p>
                 <p className="myP">I was a software engineer working on web development and image processing.</p>
